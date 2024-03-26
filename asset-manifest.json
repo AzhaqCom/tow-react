@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0d4d3bb2.css",
-    "main.js": "/static/js/main.1debdeda.js",
-    "static/js/453.1d3cc0f5.chunk.js": "/static/js/453.1d3cc0f5.chunk.js",
-    "index.html": "/index.html",
-    "main.0d4d3bb2.css.map": "/static/css/main.0d4d3bb2.css.map",
-    "main.1debdeda.js.map": "/static/js/main.1debdeda.js.map",
-    "453.1d3cc0f5.chunk.js.map": "/static/js/453.1d3cc0f5.chunk.js.map"
+    "main.css": "/tow-react/static/css/main.0d4d3bb2.css",
+    "main.js": "/tow-react/static/js/main.140bda92.js",
+    "static/js/453.1d3cc0f5.chunk.js": "/tow-react/static/js/453.1d3cc0f5.chunk.js",
+    "index.html": "/tow-react/index.html",
+    "main.0d4d3bb2.css.map": "/tow-react/static/css/main.0d4d3bb2.css.map",
+    "main.140bda92.js.map": "/tow-react/static/js/main.140bda92.js.map",
+    "453.1d3cc0f5.chunk.js.map": "/tow-react/static/js/453.1d3cc0f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d4d3bb2.css",
-    "static/js/main.1debdeda.js"
+    "static/js/main.140bda92.js"
   ]
 }
