@@ -12,7 +12,7 @@ function MyRoute() {
     return (
         <div className="Route">
             <Routes>
-                <Route path='/' element={<Home />} />
+                <Route path='/tow-react' element={<Home />} />
                 <Route path='/strat' element={<Strat />} />
                 <Route path='/mouv' element={<Mouv />} />
                 <Route path='/tir' element={<Tir />} />

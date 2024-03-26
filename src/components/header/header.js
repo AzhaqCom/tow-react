@@ -6,7 +6,7 @@ function Header() {
         <header className="App-header">
 
             <ul >
-                <NavLink className="active link-menu" to='/'>Résumé d'un tour </NavLink>
+                <NavLink className="active link-menu" to='/tow-react'>Résumé d'un tour </NavLink>
                 <NavLink className="active link-menu" to='/regle-he'>Règle Haut elfes</NavLink>
                 <NavLink className="link-menu" to='/regle'>Règle</NavLink>
             </ul>
