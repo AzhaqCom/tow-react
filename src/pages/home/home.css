@@ -17,11 +17,20 @@
 .tableau-bless table td{
     min-width: 23px;
 }
+.resultat-combat table{
+    border-collapse: collapse;
+}
+.resultat-combat table td{
+    border: 1px solid #c6c5c5 ;
+}
 .bold{
     font-weight: bold;
-    color: #000000;
-    background-color: #c6c5c5;
+    color: #d3d3d3;
+    background-color: #4e5461
 }
 .bld{
     font-weight: bold;
 }
+ ol,ul{
+    padding-left: 20px;
+ }

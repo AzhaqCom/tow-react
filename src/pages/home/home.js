@@ -70,7 +70,7 @@ function home() {
       </div>
       <div className='resultat-combat'>
         <h4>Tableau de Résultat du Combat</h4>
-        <table>
+        <table >
           <tbody>
           <tr><td className='bld'>Blessures non sauvegardées</td><td>1 point chacune</td></tr>
           <tr><td className='bld'>Bonus de Rang</td><td>+1 point/rang</td></tr>

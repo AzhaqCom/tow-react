@@ -1,6 +1,7 @@
 .link-menu{
-    color: #fff;
+    color: #3a7bd5;
     padding: 5px;
+    text-decoration: none;
 }
 .App-header{
     background-color: #282c34;
@@ -8,6 +9,10 @@
     display: flex;
     align-items: center;
     padding: 0 20px;
+    justify-content: center;
+}
+.App-header .logo{
+    width: 20px;
 }
 .App-header ul{
     margin: 0;
@@ -25,5 +30,5 @@ html{
     min-height: 96vh;
 }
 h1,h2,h3,h4,h5,h6{
-    color: #aec1cc;
+    color: #3a7bd5;
 }

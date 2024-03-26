@@ -1,14 +1,15 @@
 import './header.css'
 import { NavLink } from 'react-router-dom'
-
+import logo from '../../assets/marteau-de-thor.svg'
 function Header() {
     return (
         <header className="App-header">
 
             <ul >
-                <NavLink className="active link-menu" to='/tow-react'>Résumé d'un tour </NavLink>
-                <NavLink className="active link-menu" to='/regle-he'>Règle Haut elfes</NavLink>
-                <NavLink className="link-menu" to='/regle'>Règle</NavLink>
+                <img src={logo} className='logo' alt='Logo marteau'></img>
+                <NavLink className="active link-menu" to='/tow-react'>Résumé d'un tour</NavLink>
+                <NavLink className="active link-menu" to='/regle-he'>Règle HE</NavLink>
+                <NavLink className="link-menu" to='/regle'>Règle Spé</NavLink>
             </ul>
         </header>
     );

@@ -4,7 +4,7 @@ import './rule.css';
 
 function Rule() {
     const [searchTerm, setSearchTerm] = useState(''); // État pour stocker le terme de recherche
-    const [toggleAll, setToggleAll] = useState(false); // État pour activer ou désactiver l'affichage de toutes les règles
+
     const [filteredRules, setFilteredRules] = useState(RulesData.regle_special); // État pour stocker les règles filtrées
 
     // Fonction de gestion du changement de terme de recherche
@@ -19,14 +19,7 @@ function Rule() {
         setFilteredRules(filtered);
     };
 
-    // Fonction de gestion du changement d'affichage de toutes les règles
-    const toggleAllRules = () => {
-        setToggleAll(!toggleAll);
-        setSearchTerm(''); // Réinitialiser le terme de recherche lorsque l'utilisateur active ou désactive l'affichage de toutes les règles
-        if (!toggleAll) {
-            setFilteredRules(RulesData.regle_special); // Afficher toutes les règles si l'affichage de toutes les règles est activé
-        }
-    };
+
 
     return (
         <div className='container'>

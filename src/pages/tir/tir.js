@@ -42,16 +42,17 @@ function tir() {
                     <tr><td className='bold'>10</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>2+</td><td>3+</td><td>4+</td></tr>
                 </table>
             </div>
+            <br></br>
             <p>Pour chaque blessure votre adversaire peut faire un jet de Sauvegarde d'armure (voir page 141)</p>
-
+            <br></br>
             <h5 className='h5'>4. Retrait des pertes & tests de Panique</h5>
             <p><strong>Retrait des pertes : </strong>Les blessures non sauvegardées sont appliquées à l'unité cible, chacune faisant perdre 1PV à une figurine. Une figurine réduite a 0PV est retirée comme perte.</p>
-            <p><strong>Tests de Panique : </strong>Si, au cours d'une même phase de Tir une unité perd plus du quart (25%) des figurines qu'elle contenait au début de cette phase de Tir, elle doit immédiatement effectuer un test de Panique comme décrit page 160.</p>
+            <br></br><p><strong>Tests de Panique : </strong>Si, au cours d'une même phase de Tir une unité perd plus du quart (25%) des figurines qu'elle contenait au début de cette phase de Tir, elle doit immédiatement effectuer un test de Panique comme décrit page 160.</p>
             <h4>Tableau d'Incidents de Tir'</h4>
             <p>Si vous botenez un "Misfire" sur un dé D'Artillerie faite un jet d'incident</p>
             <br></br>
             <h5 className='h5'>Incidents de Tir de Catapultes</h5>
-            <table className='tableau-touche' cellpadding="0" cellspacing="0">
+            <table className='tableau-incident' cellpadding="0" cellspacing="0">
                 <tr> <td><strong>D6</strong></td><td><strong>Résultat</strong></td></tr>
                 <tr> <td><strong>1</strong></td><td><strong>Détruite :</strong>La figurine est détruite et immédiatement retirée du jeu</td></tr>
                 <tr> <td><strong>2-4</strong></td><td><strong>Défaillance :</strong>Les servants perdent 1 PV, la figurine rate son tir à ce tour et ne peut pas tirer avant la fin du prochain round.</td></tr>
@@ -60,7 +61,7 @@ function tir() {
             <br></br>
 
             <h5 className='h5'>Incidents de Tir des machines à poudre</h5>
-            <table className='tableau-touche' cellpadding="0" cellspacing="0">
+            <table className='tableau-incident' cellpadding="0" cellspacing="0">
                 <tr> <td><strong>D6</strong></td><td><strong>Résultat</strong></td></tr>
                 <tr> <td><strong>1</strong></td><td><strong>Détruite :</strong>La figurine est détruite et immédiatement retirée du jeu</td></tr>
                 <tr> <td><strong>2-4</strong></td><td><strong>Défaillance :</strong>Les servants perdent 1 PV, la figurine rate son tir à ce tour et ne peut pas tirer avant la fin du prochain round.</td></tr>
