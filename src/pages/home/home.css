@@ -1,0 +1,27 @@
+.container-left{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #fff;
+}
+.link{
+    color: #fff;
+}
+.tableau-touche{
+    max-width: 500px;
+    border-collapse: collapse;
+}
+.tableau-bless table td, .tableau-touche td{
+    border: 1px solid #c6c5c5 ;
+}
+.tableau-bless table td{
+    min-width: 23px;
+}
+.bold{
+    font-weight: bold;
+    color: #000000;
+    background-color: #c6c5c5;
+}
+.bld{
+    font-weight: bold;
+}

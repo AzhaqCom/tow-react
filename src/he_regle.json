@@ -1,0 +1,84 @@
+{
+    "armee": "hauts elfes",
+    "regle_special": [
+        {
+            "nom": "Armure Dragon",
+            "effet": "Save invu a 6+. Un sorcier avec cette règle peut porter une armure sans malus"
+        },
+        {
+            "nom": "Armure en Ithilmar /barde en Ithilmar",
+            "effet": "Relance des 1 sur tests de Terrain Dangereux. Un sorcier avec cette règle peut porter une armure sans malus"
+        },
+        {
+            "nom": "Armes en Ithilmar",
+            "effet": "Quand engagés en combat, une figurine qui combat avec une arme de base peut relancer tout jet de touche de 1"
+        },
+        {
+            "nom": "Bienfait de Lileath",
+            "effet": "Une fois par tour, une figurine avec cette règle spéciale peut relancer un seul jet de lancement raté"
+        },
+        {
+            "nom": "Bienfaits d'Asuryan",
+            "effet": "Save invu a 5+ contre blessure par une attaque enflammées"
+        },
+        {
+            "nom": "Cape de lion",
+            "effet": "+1 d'armure ( maximum de de 2+) contre les attaques de tir non magiques"
+        },
+        {
+            "nom": "Cor d'Isha",
+            "effet": "Usage unique. A la sous-phase de commandement de son tour, ce personnage peut tenter d'utiliser le Cor d'Isha en faisant un test de Commandemant( avec son propre CD).En cas de réussite, jusqu'à votre prochaine sous phase de début de tour, ce personnage et toute unité qu'il a rejointe gagne un modificateur de +1 a leurs jets de touche et de blessure"
+        },
+        {
+            "nom": "Coup de fendoir",
+            "effet": "Si une figurine ayant cette règle obtient un 6 naturel pour blesser, si elle vise de l'infanterie réguliere, infanterie lourdre, cavalerie légère, cavalerie Lourde ou bêtes de guerres ils n'ont pas droit a une save ou à une Régénération.( les invu sont possible)( si blessure auto cette règle s'annule)"
+        },
+        {
+            "nom": "Discipline navale",
+            "effet": "Une unité de Garde Maritime peut utiliser cette règle quand elle effectue une réaction de charge Tenir Sa Position et Tirer. Une unité qui fait cela peut effectuer une réaction de charge Tenir sa position et tirerr quelle que soit la distance de L'unité qui charge. Une fois ce tir résolu, l'unité chargée peut effectuer une manoeuvre Redresser les Rangs gratuite après quoi elle Tient sa possition et attend l'unité qui charge. Les unités en fuite, déjà engagés en combat quand on les charge, ou rejointe par un perso sans cette règle ne peuvent pas utiliser cette règle."
+        },
+        {
+            "nom": "Flèches d'Isha",
+            "effet": "Tout arc que porte une figurine avec cette règle à la règle Arme perforante 1 et une PA de -1"
+        },
+        {
+            "nom": "Garde du Roi",
+            "effet": "Toute figurine de l'unité peut relever les défis si le général est dans l'unité. Si celui ci la quitte, l'unité perd l'aptitude"
+        },
+        {
+            "nom": "Guerrie de Nagarythe",
+            "effet": "Une unité avec cette règle peut etre uniquement rejointe par un personnage ayant l'honneur Rôdeur des Ombres"
+        },
+        {
+            "nom": "Guerriers de Chrace",
+            "effet": "Une unité avec cette règle spéciale peut uniquement être rejointe par le général ou par un perso ayant l'honneur chasseur chracien"
+        },
+        {
+            "nom": "Guerriers de la tour blanche",
+            "effet": "Une unité avec cette règle peut uniquement être rejointe par un Mage haut Elfe ou un perso ayant l'honneur Gardien de Saphery ou Maitre du savoir."
+        },
+        {
+            "nom": "Prouesses martiales",
+            "effet": "Une unité avec cette règle spéciale peut effectuer des attaques de soutien sur son flanc ou son arrière, ainsi que sur son rang avant"
+        },
+        {
+            "nom": "Réflexes elfiques",
+            "effet": "+1 initiative ( sauf monture) au premier round de combat"
+        },
+        {
+            "nom": "Témoins du Destin",
+            "effet": "Cette unité a une sauvegarde invulnérable de 6+ contre les attaques non magique"
+        },
+        {
+            "nom": "Tir déviés",
+            "effet": "Une figurine avec cette règle a une sauvegarde invu de 6+ contre toutes lesz blessures infligée par une attaque de tir non magique"
+        },
+        {
+            "nom": "Valeur des âges",
+            "effet": "Une unité avec cette règle peut relancer tout test de panique raté quand elle subit de lourdes pertes ou quand une unité amie fuit a travers elle."
+        }
+    ]
+ 
+  
+
+}

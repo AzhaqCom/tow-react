@@ -1,0 +1,102 @@
+[
+    {
+        "nom": "Arme perforante (x)",
+        "effet": "Si une figurine ayant cette règle obtient un 6 naturel pour blesser, la caractéristique de Pénétration d'armure de son arme est améliorer du montant X"
+    },
+    {
+        "nom": "Arme à souffle",
+        "effet": "Une figurine avec Arme à souffle peut l'utiliser une fois par Round, à la phase de Tir de son tour. Placez le gabarit de souffle. Le gabarit doit être entièrement dans l'arc de vision de La Figurine Les armes à souffle ne peuvent pas être utilisées pour une réaction de charge Tenir la position & tirer, ni quand la figurine est engagée en combat."
+    },
+    {
+        "nom": "Cavalerie rapide",
+        "effet": "Si toutes les figurines ( y compris les persoonages) d'une unité déployée en formation en Ordre dispersé ont cette règle spéciale, l'unité peut effectuer sa rotation rapide(voir page 183) même si elle a effectué une marche forcée."
+    },
+    {
+        "nom": "Contre charge",
+        "effet": "Cette règle spéciale ne peut être utilisée que par des unités constituées entièrement de figurines ayant cette règle spéciale. \nQuand une unité ayant cette règle est chargée sur son arc frontal par une unité ennemie dont le type de troupe est 'cavalerie', 'char' ou 'monstre', elle peut déclarer une réaction de charge 'Contre-charge': \n\nL'unité s'élance pour recevoir la charge, mesure la distance entre les deux unités. Si la distance est inférieure à la caractéristique de Mouvement de l'unité qui charge, l'unité chargée n'a pas le temps de recevoir la charge ennemie et doit tenir sa position ou fuir à la place. \n\nSinon faites pivoter l'unité sur son centre afin qu'il soit directement face au centre de l'unité ennemie qui charge. Après avoir pivoté, l'unité se déplace de D3+1\" directement vers l'unité ennemie. Les dexu unités sont considérées comme ayant chargé à ce tour. \n\n Les unités en fuite et les unités déjà engagés en combat quand elles sont chargées ne peuvent pas faire de Contre-charge. Une unité ne peut faire de contre-charge qu'en réponse à une charge par tour, même si elle est chargée par plusieurs unités. Dans un tel cas, une fois que toutes les charges ont été déclarés, le joueur inactif peut choisir sur quelle unité qui charge il va effectuer une Contre-charge. L'unité Tiendra sa position contre les autres unités qui chargent."
+    },
+    {
+        "nom": "Détachement",
+        "effet": "Une unité ayant cette règle peut être aligné en tant que \"Détachement\"(voir page 282)"
+    },
+    {
+        "nom": "Éclaireurs",
+        "effet": "Les unités ayant cette règle sont déployés apres toutes les autres unités des deux armées. Elles peuvent être déployés n'importe où à plus de 12\" de figurines ennemie. S'ils sont déployés ainsi, les éclaireurs ne peuvent pas déclarer de charge à leur premier tour.\n\n Si les deux armés contiennent des éclaireurs, un tir au dé doit déterminer quel joueur déploie ses éclaireurs en premier. Les joueurs déploient ensuite leurs unités une par une à tour de rôle, en commencant par le vainqueur au dé."
+    },
+    {
+        "nom": "Esquiveur",
+        "effet": "Une fois par tour, quand cette unité est désignée comme cible durant la phase de tir ennemie, elle peut choisir de Se replier en Bon Ordre et fuira directement à l'opposé de l'unité qui lui tire dessus. Une fois que cette unité a terminé son mouvement, l'unité ennemie peut effectuer les tirs qu'elle avait déclarés."
+    },
+    {
+        "nom": "Frappe en premier",
+        "effet": "A la phase de Combat, une figurine ayant cette règle qui est engagé en combat porte sa caractéristique d'initiative à 10. Si une figurine a cette règle et frappe en dernier, les deux s'annulent."
+    },
+    {
+        "nom": "Immunise à la psychologie",
+        "effet": "Si la majorité des figurines d'une unité sont immunisés à la physchologie, l'unité réussit auto tout test de peur, de panique ou de terreur. Toutefois, si la majorité des figurines d'une unité ont cette règle, l'unité ne peut pas choisir la fuite comme réaction de charge."
+    },
+    {
+        "nom": "Ignore les couverts",
+        "effet": "Si une figurine effectuant une attaque de tir à cette règle spéciale, elle ignore tout modificateur au jet de touche causé par un couvert léger ou lourd."
+    },
+    {
+        "nom": "Mouvement à couvert",
+        "effet": "Les figurines ayant cette règle ne subissent pas de modificateurs à leur caractéristique de Mouvement quand ils se déplacent à travers un terrain difficile ou dangereux. En outre, une figurine ayant cette règle spéciale peut relance tout jet de 1 à ses tests de terrain Dangereux."
+    },
+    {
+        "nom": "Obstiné",
+        "effet": "La première fois que cette unité doit effectuer un test de Moral, elle peut choisir de ne pas le faire pour se Replier en Bon Ordre automatiquement à la place, même si la puissance d'unité du camp victorieux est supérieur au double de celle du camp vaincu. Une unité qui n'est pas Obstinée ne devient pas obstinée quand un personnage qui l'est la rejoint. Un personnage Obstiné ne peut pas utiliser cette règle spéciale tant qu'il fait partir d'une unité qui n'est pas obstinée."
+    },
+    {
+        "nom": "Ordre serré",
+        "effet": "Une unité composée de figurines avec cette règle spéciale peut adopter une formation Ordre Serré. (voir page 100)"
+    },
+    {
+        "nom": "Ordre dispersé",
+        "effet": "Une unité composée de figurines avec cette règle spéciale peut adopter une formation Ordre Dispersé. (voir page 182)"
+    },
+    {
+        "nom": "Peau blindée (x)",
+        "effet": "Le cuir de certaines créatures constitue une armure naturelle et améliore leur valeur d'armure(et celle de leur cavalier). Le degré d'amélioration de la valeur d'amure peut varier, comme indiqué entre parenthèse (X)"
+    },
+    {
+        "nom": "Peur",
+        "effet": " les figurines ayant cette règle spécial causent la Peur : \n\n • Si une unité souhaite déclarer une charge contre une unité ennemie qui cause la Peur et a une Puissance d'Unité plus élevée, elle doit d'abord effectuer un test de CD. En cas d'échec, l'unité ne peut pas charger. Elle ne se dépace pas et est considérée comme ayant effectué une charge ratée. En cas de réussite, lunité peut charger normalement. \n\n• Si une unité est engagée avec une unité ennemeie qui cause la Peur et a une Puissance d'Unité plus élevée Son combat est choisi pendant 'nimporte quelle sous-phase Choisir & Livrer les Combats, elle doit effectuer un test de CD. En cas d'Echec, toute figurine de l'unité qui dirige ses attaques contre l'ennemi qui cause la Peur subit un modificateur de -1 a ses jets de Touche.\n\n Une unité n'a besoin d'effectuer qu'un seul test de Peur par tour.Les figurines qui causent la Peur sont immunisés à la Peur. \nUne unité qui ne cause pas la Peur ne devient pas immunisée à la Peur quand un personnage qui l'est la rejoint."
+    },
+    {
+        "nom": "Pietinement",
+        "effet": "Les attaques piétinées ne peuvent être effectuées que par une figurine en contact socle à socle avec l'ennemi. Les attaques piétinées sont des attaques effectuées en combat qui frappent toujours à l'Initiative 1 (quels que soient les modificateurs) et qui touchent automatiquement en utilisant la caractéristique de Force non modifiée de la figurine."
+    },
+    {
+        "nom": "Premiere charge",
+        "effet": "Si la première charge de la partie de cette unité est réussie ( c-a-d si l'unité entre en contact avec la cible de la charge), la cible devient désorganisée jusqu'à la fin de la phase de Combat de ce tour."
+    },
+    {
+        "nom": "Résistance à la magie(x)",
+        "effet": "Le jet de lancement de tour sort ennemi( y compris les sorts Liés) qui cible une unité qui inclut une ou plusieurs figurines ayant cette règle subit un modificateur indiqué par X."
+    },
+    {
+        "nom": "Rapide",
+        "effet": "Une unité ayant cette règle augmente sa porté de charge de 3\" et quand elle effectue une jet de Charge, de fuite ou de poursuite elle peut appliquer un modificateur de +d6 au resultat"
+    },
+    {
+        "nom": "Tirailleurs",
+        "effet": "Une unité constituée de figurines ayant cette règle spéciale peut adopter une formation de tirailleurs, comme décrit page 184."
+    },
+    {
+        "nom": "Terreur",
+        "effet": "Les figurines ayant cette règle causent la Terreur. Les figurines qui causent la Terreur causent aussi la Peur (voir page 168) \n\n•Quand une unité qui cause la Terreur déclare une charge, la cible de la charge doit immédiatement effectuer un test de CD. En cas d'échec, elle doit Fuir. En cas de réussite, elle peut déclarer normalement sa réaction de charge. \n\n• Si le camp victorieux d'un combat inclut au moins une unité qui cause la Terreur, chaque unité du camp vaincu doit appliquer un modificateur de -1 à sa caractéristique de CD quand elle effectue son test de Moral. \n\n Les figurines ayant la règle Peur ont Peur des figurines qui causent la Terreur. Les figurines qui causent la Terreur sont immunisés à la Terreur. Une unité qui ne cause pas la Terreur ne devient pas immunisée à la Terreur quand une figurine qui cause la Terreur la rejoint."
+    },
+    {
+        "nom": "Tir et fuite",
+        "effet": "Une unité ayant cette règle spéciale qui est équipé d'armes à projectiles peut déclarer qu'elle va effectuer une réaction de charge \"Tir & Fuite\" : \n\n • L'unité tire une savle de projectiles avant de fuir l'ennemi. Si une unité ayant cette règle est dotée d'amre à projectiles et peut tracer une ligne de vue sur l'unité qui charge, elle peut déclarer qu'elle va Tirer & Fuir. L'unité Tient sa Position & Tire( page 120) avant de tourner les talons pour fuir la charge. Cepandant, en rasion du temps consacré au tir, quand elle effecture son jet de Fuite, l'unité jette deux D6 et défausse le résultat le plus bas."
+    },
+    {
+        "nom": "Unité régimentaire",
+        "effet": "Une unité ayant cette règle peut être accompagné par des \"détachements\" (voir page 282)"
+    },
+    {
+        "nom": "Vétérans",
+        "effet": "Si la majorité des figurines d'une unité ont cette règle spéciale, l'unité peut relancer tout test de Commandement raté."
+    }
+]
