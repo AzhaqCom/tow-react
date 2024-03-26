@@ -6,10 +6,10 @@ function home() {
     <div className='container-left'>
       <h1>Résumé d'un tour</h1>
       <ol>
-        <li > <Link to="/tow-react/strat" className='link'> La Phase de Stratégie</Link></li>
-        <li > <Link to="/tow-react/mouv" className='link'> La Phase de Mouvement</Link></li>
-        <li > <Link to="/tow-react/tir" className='link'> La Phase de Tir</Link></li>
-        <li > <Link to="/tow-react/combat" className='link'> La Phase de Combat</Link></li>
+        <li > <Link to="/strat" className='link'> La Phase de Stratégie</Link></li>
+        <li > <Link to="/mouv" className='link'> La Phase de Mouvement</Link></li>
+        <li > <Link to="/tir" className='link'> La Phase de Tir</Link></li>
+        <li > <Link to="/combat" className='link'> La Phase de Combat</Link></li>
       </ol>
       <h2>Petite aide rapide</h2>
       <h4>Jet de touche au tir</h4>

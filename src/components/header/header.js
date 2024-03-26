@@ -7,9 +7,9 @@ function Header() {
 
             <ul >
                 <img src={logo} className='logo' alt='Logo marteau'></img>
-                <NavLink className="active link-menu" to='/tow-react'>Résumé d'un tour</NavLink>
-                <NavLink className="active link-menu" to='/tow-react/regle-he'>Règle HE</NavLink>
-                <NavLink className="link-menu" to='/tow-react/regle'>Règle Spé</NavLink>
+                <NavLink className="active link-menu" to='/'>Résumé d'un tour</NavLink>
+                <NavLink className="active link-menu" to='/regle-he'>Règle HE</NavLink>
+                <NavLink className="link-menu" to='/regle'>Règle Spé</NavLink>
             </ul>
         </header>
     );

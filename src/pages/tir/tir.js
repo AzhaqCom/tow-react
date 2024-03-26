@@ -76,9 +76,9 @@ function tir() {
                 </tbody>
             </table>
             <h2>La suite du tour</h2>
-            <Link to="/tow-react/strat" className='link'> 1. La Phase de Stratégie</Link>
-            <Link to="/tow-react/mouv" className='link'> 2. La Phase de Mouvement</Link>
-            <Link to="/tow-react/combat" className='link'> 4. La Phase de Combat</Link>
+            <Link to="/strat" className='link'> 1. La Phase de Stratégie</Link>
+            <Link to="/mouv" className='link'> 2. La Phase de Mouvement</Link>
+            <Link to="/combat" className='link'> 4. La Phase de Combat</Link>
         </div>
     )
 }

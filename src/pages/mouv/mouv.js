@@ -60,9 +60,9 @@ function mouv() {
 
             </ul>
             <h2>La suite du tour</h2>
-            <Link to="/tow-react/strat" className='link'> 1. La Phase de Stratégie</Link>
-            <Link to="/tow-react/tir" className='link'> 3. La Phase de Tir</Link>
-            <Link to="/tow-react/combat" className='link'> 4. La Phase de Combat</Link>
+            <Link to="/strat" className='link'> 1. La Phase de Stratégie</Link>
+            <Link to="/tir" className='link'> 3. La Phase de Tir</Link>
+            <Link to="/combat" className='link'> 4. La Phase de Combat</Link>
         </div>
     )
 }
