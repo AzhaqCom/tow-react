@@ -1,15 +1,24 @@
+.mwith{
+    max-width: 1366px;
+    padding: 10px;
+    margin: 0 auto;
+}
 .container-left{
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
     margin: 0 auto;
-    max-width: 1366px;
+    
     border: 1px solid #3a7bd5;
     border-radius: 20px;
 }
 .link{
-    color: #fff;
+    color: #b0caee;
+    width: fit-content;
+}
+.red{
+    color: #ffaa2c;
 }
 .tableau-touche{
     max-width: 500px;
@@ -17,15 +26,16 @@
 }
 .tableau-bless table td, .tableau-touche td{
     border: 1px solid #c6c5c5 ;
+    text-align: center;
+    padding: 2px;
 }
-.tableau-bless table td{
-    min-width: 23px;
-}
+
 .resultat-combat table{
     border-collapse: collapse;
 }
 .resultat-combat table td{
     border: 1px solid #c6c5c5 ;
+    padding: 5px;
 }
 .bold{
     font-weight: bold;
@@ -37,4 +47,15 @@
 }
  ol,ul{
     padding-left: 20px;
+ }
+ @media screen and (min-width: 768px){
+    .tableau-bless table td{
+        min-width: 23px;
+    }
+    .tableau-bless table td, .tableau-touche td{
+        padding: 5px;
+    }
+    .container-left{
+        padding: 20px;
+    }
  }

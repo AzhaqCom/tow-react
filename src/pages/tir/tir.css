@@ -1,8 +1,14 @@
-.tableau-incident td{
+.tableau-incident td {
     min-width: 25px;
     border: 1px solid #c6c5c5;
-    padding: 5px 2px;
+    padding: 5px;
 }
-.tableau-incident{
+
+.tableau-incident {
     border-collapse: collapse;
+    max-width: 540px;
+}
+
+.tableau-bless td {
+    padding: 2px;
 }
