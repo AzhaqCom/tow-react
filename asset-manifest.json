@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tow-react/static/css/main.1711c6a8.css",
-    "main.js": "/tow-react/static/js/main.e48a8194.js",
+    "main.js": "/tow-react/static/js/main.faff0c94.js",
     "static/js/453.1d3cc0f5.chunk.js": "/tow-react/static/js/453.1d3cc0f5.chunk.js",
     "static/media/marteau-de-thor.svg": "/tow-react/static/media/marteau-de-thor.565ca82b4ea6a302cd6d0e9b3351f176.svg",
     "index.html": "/tow-react/index.html",
     "main.1711c6a8.css.map": "/tow-react/static/css/main.1711c6a8.css.map",
-    "main.e48a8194.js.map": "/tow-react/static/js/main.e48a8194.js.map",
+    "main.faff0c94.js.map": "/tow-react/static/js/main.faff0c94.js.map",
     "453.1d3cc0f5.chunk.js.map": "/tow-react/static/js/453.1d3cc0f5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1711c6a8.css",
-    "static/js/main.e48a8194.js"
+    "static/js/main.faff0c94.js"
   ]
 }
