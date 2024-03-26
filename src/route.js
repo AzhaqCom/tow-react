@@ -13,12 +13,12 @@ function MyRoute() {
         <div className="Route">
             <Routes>
                 <Route path='/tow-react' element={<Home />} />
-                <Route path='/strat' element={<Strat />} />
-                <Route path='/mouv' element={<Mouv />} />
-                <Route path='/tir' element={<Tir />} />
-                <Route path='/combat' element={<Combat />} />
-                <Route path='/regle-he' element={<Rule />} />
-                <Route path='/regle' element={<Regle />}></Route>
+                <Route path='/tow-react/strat' element={<Strat />} />
+                <Route path='/tow-react/mouv' element={<Mouv />} />
+                <Route path='/tow-react/tir' element={<Tir />} />
+                <Route path='/tow-react/combat' element={<Combat />} />
+                <Route path='/tow-react/regle-he' element={<Rule />} />
+                <Route path='/tow-react/regle' element={<Regle />}></Route>
 
             </Routes>
         </div>

@@ -47,8 +47,8 @@ function RuleItem(props) {
     };
 
     return (
-        <div className="rule-item">
-            <h4 className="rule-title" onClick={handleClick}>{data.nom}</h4>
+        <div className="rule-item" onClick={handleClick}>
+            <h4 className="rule-title" >{data.nom}</h4>
             {toggle && <p className="rule-effect">{data.effet}</p>} {/* Afficher l'effet uniquement si toggle est true */}
         </div>
     );

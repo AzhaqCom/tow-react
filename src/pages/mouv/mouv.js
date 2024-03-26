@@ -32,12 +32,12 @@ function mouv() {
             <br></br><p><strong>Déplacer l'unité en Charge :</strong> Si la portée de charge suffit à atteindre l'unité cible, effectuez un mouvement de charge.</p>
             <br></br><p><strong>Charges Ratées :</strong> Si la portée de charge ne suffit pas à atteindre l'unité cible, l'unité en charge se déplace droit vers la cible d'une distance égale au jet de Charge.</p>
             <br></br><p><strong>Charger un Ennemi en Fuite :</strong> Quand on charge un ennemi en fuite :
-                <ul>
-                    <li>Si l'unité en charge entre en contact avec l'unité en fuite, elles effectuent une roue pour s'aligner et l'unité en fuite est détruite. L'unité en charge peut effectuer un test de Commandement pour tenter de se reformer.</li>
-                    <li>Si l'unité en charge n'entre pas en contact avec l'unité en fuite, elle avance de l'intégralité de sa portée de charge.</li>
-                </ul>
-            </p>
 
+            </p>
+            <ul>
+                <li>Si l'unité en charge entre en contact avec l'unité en fuite, elles effectuent une roue pour s'aligner et l'unité en fuite est détruite. L'unité en charge peut effectuer un test de Commandement pour tenter de se reformer.</li>
+                <li>Si l'unité en charge n'entre pas en contact avec l'unité en fuite, elle avance de l'intégralité de sa portée de charge.</li>
+            </ul>
 
             <h5 className='h5'>3. Mouvements Obligatoires</h5>
             <p>Tous les mouvements obligatoires se font à cette sous-phase.</p>
@@ -48,21 +48,21 @@ function mouv() {
             <p>Les Sorciers peuvent lancer des sorts de Transfert.</p>
             <br></br><p><strong>Marche Forcée :</strong> Une unité en marche forcée peut doubler sa caractéristique de Mouvement (ou la tripler en colonne de marche) et peut faire une roue pour changer de direction, mais pas d'autres manœuvres. Pour effectuer une marche forcée à 8" d'une unité ennemie, il faut réussir un test de Commandement.</p>
             <br></br> <p><strong>Manœuvres :</strong> Durant son mouvement, une unité peut exécuter une des manœuvres suivantes (notez qu'aucune figurine ne peut se déplacer de plus du double de sa caractéristique de mouvement) :
-                <ul>
-                    <li><strong>Roue :</strong> Le front de l'unité avance tout en pivotant sur un de ses coins avant.</li>
-                    <li><strong>Réorientation :</strong> Toutes les figurines demeurent en place mais pivotent de 90° ou 180° pour faire face au côté ou à l'arrière. Pour chaque tranche de 90° dont elle pivote, une unité utilise un quart de sa caractéristique de mouvement.</li>
-                    <li><strong>Recul :</strong> L'unité divise sa caractéristique de mouvement et recule.</li>
-                    <li><strong>Mouvement latéral :</strong> L'unité divise sa caractéristique de mouvement et se déplace latéralement.</li>
-                    <li><strong>Redresser les Rangs :</strong> L'unité utilise la moitié de sa caractéristique de mouvement pour ajouter ou retirer jusqu'à cinq figurines à son rang frontal.</li>
-                    <li><strong>Reformation :</strong> L'unité utilise l'intégralité de sa caractéristique de mouvement pour exécuter une réorientation en pivotant sur son centre tout en redressant ses rangs selon le besoin, ou bien pour adopter une nouvelle formation.</li>
 
-                </ul>
             </p>
+            <ul>
+                <li><strong>Roue :</strong> Le front de l'unité avance tout en pivotant sur un de ses coins avant.</li>
+                <li><strong>Réorientation :</strong> Toutes les figurines demeurent en place mais pivotent de 90° ou 180° pour faire face au côté ou à l'arrière. Pour chaque tranche de 90° dont elle pivote, une unité utilise un quart de sa caractéristique de mouvement.</li>
+                <li><strong>Recul :</strong> L'unité divise sa caractéristique de mouvement et recule.</li>
+                <li><strong>Mouvement latéral :</strong> L'unité divise sa caractéristique de mouvement et se déplace latéralement.</li>
+                <li><strong>Redresser les Rangs :</strong> L'unité utilise la moitié de sa caractéristique de mouvement pour ajouter ou retirer jusqu'à cinq figurines à son rang frontal.</li>
+                <li><strong>Reformation :</strong> L'unité utilise l'intégralité de sa caractéristique de mouvement pour exécuter une réorientation en pivotant sur son centre tout en redressant ses rangs selon le besoin, ou bien pour adopter une nouvelle formation.</li>
 
+            </ul>
             <h2>La suite du tour</h2>
-            <Link to="/strat" className='link'> 1. La Phase de Stratégie</Link>
-            <Link to="/tir" className='link'> 3. La Phase de Tir</Link>
-            <Link to="/combat" className='link'> 4. La Phase de Combat</Link>
+            <Link to="/tow-react/strat" className='link'> 1. La Phase de Stratégie</Link>
+            <Link to="/tow-react/tir" className='link'> 3. La Phase de Tir</Link>
+            <Link to="/tow-react/combat" className='link'> 4. La Phase de Combat</Link>
         </div>
     )
 }
