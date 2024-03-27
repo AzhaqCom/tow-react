@@ -6,6 +6,7 @@ import Strat from "./pages/strat/strat";
 import Mouv from "./pages/mouv/mouv";
 import Tir from "./pages/tir/tir";
 import Combat from "./pages/combat/combat";
+import Objetm from "./pages/objetm/objetm";
 import './index.css'
 
 function MyRoute() {
@@ -17,6 +18,7 @@ function MyRoute() {
                 <Route path='/mouv' element={<Mouv />} />
                 <Route path='/tir' element={<Tir />} />
                 <Route path='/combat' element={<Combat />} />
+                <Route path='/objetm' element={<Objetm />} />
                 <Route path='/regle-he' element={<Rule />} />
                 <Route path='/regle' element={<Regle />}></Route>
 

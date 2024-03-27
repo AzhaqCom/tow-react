@@ -4,16 +4,88 @@
         "effet": "Si une figurine ayant cette règle obtient un 6 naturel pour blesser, la caractéristique de Pénétration d'armure de son arme est améliorer du montant X"
     },
     {
+        "nom": "Arme à Deux Mains",
+        "effet": "Une figurine ne peut pas utiliser de bouclier avec une arme ayant cette règle au cours de la phase de Combat(elle peut tout de même utiliser un bouclier contre les blessurs causées par les tirs ou la magie à d'autres phases de la partie)"
+    },
+    {
         "nom": "Arme à souffle",
         "effet": "Une figurine avec Arme à souffle peut l'utiliser une fois par Round, à la phase de Tir de son tour. Placez le gabarit de souffle. Le gabarit doit être entièrement dans l'arc de vision de La Figurine Les armes à souffle ne peuvent pas être utilisées pour une réaction de charge Tenir la position & tirer, ni quand la figurine est engagée en combat."
+    },
+    {
+        "nom": "Attaque aléatoires",
+        "effet": "Les figurines ayant cette règle n'ont pas de caractéristiques d'attaques normal. À la place, leur profil affiche un jet de dé(D3+1, par exemple). Chaque fois qu'une figurine ayant cette règle spéciale attaque en combatn jetez le dé pour déterminer le nombre d'attaques qu'elle effectue, puis effectuez normalement les jets de Touche. Si un rang combattant contient plus de 1 figurine ayant cette règle, jetez le dé séparément pour chaque figurine, sauf indication contraire."
+    },
+    {
+        "nom": "Attaques De Piétinement (X)",
+        "effet": "Le nombre d'Attaques de Piétinement causées varie d'une figurine à l'autre, et sera indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"X\"). Il est souvent déterminé par un jet de dé.\n\n Résoudre les Attaques de Piétinement : Les Attaques de Piétinement peuvent uniquement être effectuées par une figurine en contact socle à socle avec l'ennemi. Les Attaques de Piétinement sont des attaques effectuées en combat qui frappent toujours à Initiative 1 (quels que soient les modificateurs), et qui touchent automatiquement en utilisant la caractéristique de Force non modifiée de la figurine."
+    },
+    {
+        "nom": "Attaques empoisonnées",
+        "effet": "Si une figurine ayant la règle Attaques Empoisonnées obtient un 6 naturel à un jet de Touche, cette touche blesse automatiquement. Sauf indication contraire, une figurine ayant cette règle spéciale peut l'utiliser pour ses attaques de tir et de combat. Les éventuels sorts que lance la figurine ne sont pas affectés, tout comme toute attaque effectuée avec une arme magique."
+    },
+    {
+        "nom": "Attaques Enflammées",
+        "effet": "Toute attaque effectuée, ou touche causée, par une figurine ayant cette règle spéciale, ou effectuée avec une arme ou un sort ayant cette règle spéciale, est une attaque \"Enflammée\". En outre, une figurine ayant cette règle spéciale cause la Peur (comme décrit page 168) chez les figurines dont le type de troupe est \"bêtes de guerre \" ou  \"nuées\". Sauf indication contraire, une figurine ayant cette règle spéciale effectue des attaques Enflammées pour les tirs et en combat (bien que les sorts éventuels que lance la figurine ne soient pas affectés, de même que les attaques des armes magiques qu'elle pourrait porter)."
+    },
+    {
+        "nom": "Attaques Magiques",
+        "effet": "Toute attaque effectuée ou touche causée par une figurine ayant cette règle spéciale, ou effectuée avec une arme ayant cette règle spéciale, est une attaque \"Magique\"."
+    },
+    {
+        "nom": "Attaques Supplémentaires (+X)",
+        "effet": "Une figurine ayant cette règle spéciale a un modificateur à sa caractéristique d'attaques, indiqué entre parenthèses à côté du nom de cette règle spéciale (ici,\" +X\"). \nSi ce modificateur est déterminé par un jet de dé, effectuez le jet quand le combat de la figurine est choisi pendant n'importe quelle sous-phase Choisir & Livrer les Combats."
+    },
+    {
+        "nom": "Avant-garde",
+        "effet": "Après le déploiement, les unités ayant cette règle spéciale peuvent effectuer un mouvement d'Avant-garde. Une unité effectuant un mouvement d'Avant-garde se déplace comme décrit dans les règles de Mouvement de Base. Elle peut manœuvrer normalement mais ne peut pas effectuer de marche forcée.\n\n Si les deux armées contiennent des unités d'Avant-garde, tirez au dé pour déterminer qui se déplace en premier. Les joueurs déplacent ensuite à tour de rôle leurs unités d'Avant-garde l'une après l'autre, en commençant par le joueur qui a gagné le tir au dé."
+    },
+    {
+        "nom": "Bande De Guerre",
+        "effet": "À moins qu'elle soit en fuite, une Bande de guerre gagne un modificateur positif (+) à sa caractéristique de Commandement égal à son Bonus de rang actuel, jusqu'à un maximum de Cd de 10. Cependant, une Bande de Guerre ne peut pas utiliser ce modificateur si elle choisit d'effectuer un test de Retenue. En outre, si la majorité des figurines d'une unité ont cette règle spéciale, elle peut relancer son jet de Charge. \n\n Notez qu'à moins qu'un personnage ait aussi cette règle spéciale, son Cd ne peut pas être modifié par cette règle spéciale. Une Bande de Guerre peut utiliser soit son propre Cd modifié, soit le Cd modifié d'un personnage de Bande de Guerre, soit le Cd non modifié d'un personnage qui n'a pas la règle spéciale Bande de Guerre (en fonction du Cd le plus élevé)"
+    },
+    {
+        "nom": "Bande Hétéroclite",
+        "effet": "Les unités ayant cette règle spéciale peuvent inclure des figurines du même type qui sont équipées différemment les unes des autres, et/ou des figurines de types différents qui combattent au sein d'une même unité. Si nécessaire, la rubrique de liste d'armée de ces unités sera accompagnée d'une brève description de la composition de l'unité.\n\n Armes Différentes : Le rang combattant d'une Bande Hétéroclite peut contenir des figurines qui sont équipées d'armes différentes. Dans de tels cas, le joueur en contrôle doit jeter des groupes de dés différents pour les différentes figurines, en indiquant clairement à leur adversaire quelles attaques ils représentent et contre qui elles sont dirigées. Ces attaques sont effectuées par ordre d'Initiative des figurines individuelles, comme d'habitude.\n\n Armures Différentes : Les figurines d'une Bande Hétéroclite peuvent avoir des valeurs d'armure différentes. Au combat, utilisez la valeur d'armure de la majorité des figurines du rang combattant. Contre les tirs ennemis, utilisez la valeur d'armure des figurines majoritaires de l'unité.\n\nRetrait des Pertes : Contre les tirs ennemis, le retrait des pertes doit être réparti aussi équitablement que possible entre les figurines différentes au sein de l'unité. Au combat, les pertes doivent être retirées parmi les figurines majoritaires du rang combattant. Dans tous les cas, les figurines disponibles sont prises dans les rangs arrière pour combler les brèches, au choix du joueur en contrôle."
+    },
+    {
+        "nom": "Bien Entraînés",
+        "effet": "À moins qu'elle ne soit en fuite, une unité Bien Entraînée peut accomplir gratuitement une manœuvre de redresser les rangs avant de se déplacer. Une fois cette manœuvre terminée, l'unité se déplace normalement. En outre, une unité Bien Entraînée peut effectuer une marche forcée alors qu'elle est à 8\" d'une unité ennemie sans avoir à effectuer de test de Commandement au préalable.\n\nNotez que tout personnage qui rejoint une unité Bien Entraînée est considéré comme étant Bien Entraîné lui aussi. "
+    },
+    {
+        "nom": "Blessures Multiples (X) ",
+        "effet": "Chaque blessure non sauvegardée infligée par une attaque ayant cette règle spéciale est multipliée par le nombre indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"X\"). Par exemple, Blessures Multiples (2) signifie que chaque blessure non sauvegardée cause la perte de deux Points de Vie. Quand le nombre de Blessures Multiples est généré par un jet de dé, jetez les dés séparément pour chaque blessure non sauvegardée. \n\nNotez que les blessures en excès causées à une figurine n'auront pas d'effet additionnel à moins que la figurine soit un Personnage, auquel cas cette règle spéciale compte pour du Carnage. Les blessures en excès ne \"débordent\" pas sur les autres figurines de l'unité."
     },
     {
         "nom": "Cavalerie rapide",
         "effet": "Si toutes les figurines ( y compris les persoonages) d'une unité déployée en formation en Ordre dispersé ont cette règle spéciale, l'unité peut effectuer sa rotation rapide(voir page 183) même si elle a effectué une marche forcée."
     },
     {
+        "nom": "Charge Dévastatrice",
+        "effet": "Lors d'un tour où elle a effectué un Mouvement de Charge de 3\" ou plus, une figurine ayant cette règle spéciale gagne un modificateur de +1 à sa caractéristique d'Attaques."
+    },
+    {
+        "nom": "Combat sur plusieurs Rangs",
+        "effet": "Une figurine ayant cette règle spéciale peut effectuer une attaque de soutien, comme décrit page 145."
+    },
+    {
+        "nom": "Conscrits",
+        "effet": "Les figurines ayant cette règle spéciale ne peuvent pas utiliser la règle Présence Charismatique du Général de l'armée ni la règle Tenez vos Rangs d'un Porteur de la Grande Bannière. Toutefois, on n'attend pas grand-chose des Conscrits au combat. Par conséquent, les unités n'ayant pas cette règle spéciale n'ont pas à effectuer de test de Panique quand une unité de Conscrits amie est Démoralisée et fuit le combat"
+    },
+    {
+        "nom": "Coup Fatal",
+        "effet": "Si une figurine ayant cette règle spéciale obtient un 6 naturel quand elle effectue un jet de Blessure pour une attaque effectuée en combat, elle a porté un \"Coup Fatal\". Les figurines ennemies dont le type de troupe est \"infanterie\" ou \"cavalerie\" ne sont pas autorisées à effectuer une sauvegarde d'armure ou de Régénération (voir p.176) contre un Coup Fatal (les sauvegardes Invulnérables peuvent être tentées normalement). Si une figurine ennemie dont le type de troupe est \"infanterie\" ou \"cavalerie\" subit une blessure non sauvegardée d'un Coup Fatal , elle perd tous ses Points de Vie restants. \n\n Notez que si une attaque blesse automatiquement, cette règle spéciale ne peut pas être utilisée."
+    },
+    {
         "nom": "Contre charge",
-        "effet": "Cette règle spéciale ne peut être utilisée que par des unités constituées entièrement de figurines ayant cette règle spéciale. \nQuand une unité ayant cette règle est chargée sur son arc frontal par une unité ennemie dont le type de troupe est 'cavalerie', 'char' ou 'monstre', elle peut déclarer une réaction de charge 'Contre-charge': \n\nL'unité s'élance pour recevoir la charge, mesure la distance entre les deux unités. Si la distance est inférieure à la caractéristique de Mouvement de l'unité qui charge, l'unité chargée n'a pas le temps de recevoir la charge ennemie et doit tenir sa position ou fuir à la place. \n\nSinon faites pivoter l'unité sur son centre afin qu'il soit directement face au centre de l'unité ennemie qui charge. Après avoir pivoté, l'unité se déplace de D3+1\" directement vers l'unité ennemie. Les dexu unités sont considérées comme ayant chargé à ce tour. \n\n Les unités en fuite et les unités déjà engagés en combat quand elles sont chargées ne peuvent pas faire de Contre-charge. Une unité ne peut faire de contre-charge qu'en réponse à une charge par tour, même si elle est chargée par plusieurs unités. Dans un tel cas, une fois que toutes les charges ont été déclarés, le joueur inactif peut choisir sur quelle unité qui charge il va effectuer une Contre-charge. L'unité Tiendra sa position contre les autres unités qui chargent."
+        "effet": "Cette règle spéciale ne peut être utilisée que par des unités constituées entièrement de figurines ayant cette règle spéciale. Quand une unité ayant cette règle spéciale est chargée sur son arc frontal par une unité ennemie dont le type de troupe est \"cavalerie\"; \"char\" ou \"monstre\"; elle peut déclarer une réaction de charge \"Contre-charge\" : \n\n Contre-charge : L’unité s'élance pour recevoir la charge ennemie. Mesurez la distance entre les deux unités. Si la distance est inférieure à la caractéristique de Mouvement de l'unité qui charge, l'unité chargée n'a pas le temps de recevoir la charge ennemie et doit Tenir sa Position ou Fuir à la place.\n\n Sinon, faites pivoter l'unité sur son centre afin qu'il soit directement face au centre de l'unité ennemie qui charge. Après avoir pivoté, l'unité se déplace de D3+ l\" directement vers l'unité ennemie. Les deux unités sont considérées comme ayant chargé à ce tour. \n\n Les unités en fuite et les unités déjà engagées en combat quand elles sont chargées ne peuvent pas faire de Contre-charge. Une unité ne peut faire de Contre-charge qu'en réponse à une charge par tour, même si elle est chargée par plusieurs unités. Dans un tel cas, une fois que toutes les charges ont été déclarées, le joueur inactif peut choisir sur quelle unité qui charge il va effectuer une Contrecharge. L’unité Tiendra sa Position contre les autres unités qui chargent."
+    },
+    {
+        "nom": "Cri De Ralliement",
+        "effet": "Pendant la sous-phase de Commandement de son tour, s'il n'est pas engagé en combat, ce personnage peut désigner une seule unité amie en fuite qui se trouve à sa portée de Commandement. L'unité désignée effectue immédiatement un test de Ralliement. En cas d'échec, l'unité peut tenter de se rallier à nouveau normalement à la sous-phase de Ralliement."
+    },
+    {
+        "nom": "Dresseurs De Monstres",
+        "effet": "Un monstre ayant cette règle spéciale est accompagné d'une ou plusieurs figurines représentant ses dresseurs. Lors du déploiement, placez ces figurines à n'importe quel endroit adjacent au monstre, et en contact socle à socle avec le monstre. Si les dresseurs bloquent les mouvements ou les lignes de vue, déplacez­les simplement de côté.\n\n En combat, chaque dresseur ajoute ses attaques à celles du monstre. Si le monstre subit une blessure non sauvegardée, jetez un DG. Sur 1-4 le monstre perd un Point de Vie, mais sur 5+ une figurine de dresseur subit la blessure à sa place. Si le monstre est retiré du jeu, ses dresseurs aussi."
     },
     {
         "nom": "Détachement",
@@ -21,82 +93,214 @@
     },
     {
         "nom": "Éclaireurs",
-        "effet": "Les unités ayant cette règle sont déployés apres toutes les autres unités des deux armées. Elles peuvent être déployés n'importe où à plus de 12\" de figurines ennemie. S'ils sont déployés ainsi, les éclaireurs ne peuvent pas déclarer de charge à leur premier tour.\n\n Si les deux armés contiennent des éclaireurs, un tir au dé doit déterminer quel joueur déploie ses éclaireurs en premier. Les joueurs déploient ensuite leurs unités une par une à tour de rôle, en commencant par le vainqueur au dé."
+        "effet": "Les unités ayant cette règle spéciale sont déployées après toutes les autres unités des deux armées. Elles peuvent être déployées n'importe où sur le champ de bataille à plus de 12\" de toute figurine ennemie. S'ils sont déployés ainsi, les Éclaireurs ne peuvent pas déclarer de charge à leur premier tour.\n\nSi les deux armées contiennent des Éclaireurs, un tir au dé doit déterminer quel joueur déploie ses Éclaireurs en premier. Les joueurs déploient ensuite leurs unités d'éclaireurs une par une à tour de rôle, en commençant par le vainqueur du tir au dé."
+    },
+    {
+        "nom": "Encombrant",
+        "effet": "Les armes ayant cette règle spéciale ne peuvent pas être utilisées lors d'une réaction de charge Tenir sa Position & Tirer."
+    },
+    {
+        "nom": "Embusqueurs",
+        "effet": "Une unité ayant cette règle spéciale peut être gardée en réserve au lieu d'être déployée au début de la partie. A partir du début du deuxième round, jetez un D6 lors de chacune de vos sous-phases de Début de Tour pour chaque unité d'Embusqueurs de votre armée qui est en réserve. Sur 1-3, l'unité est retardée jusqu'à au moins le début de votre prochain tour. Sur 4+, l'unité arrive, et entre sur le champ de bataille en tant que renforts lors de la sous-phase de Mouvements Obligatoires. L'unité peut être placée sur n'importe quel bord de champ de bataille, au choix du joueur en contrôle, mais ne peut pas être placée a 8\" d'une figurine ennemie. Si un ou plusieurs Embusqueurs sont encore en réserve au début du cinquième round, ils arrivent automatiquement."
+    },
+    {
+        "nom": "Engeance Du Warp",
+        "effet": "Une figurine ayant cette règle spéciale ne peut pas effectuer de sauvegarde de Régénération contre une blessure causée par une attaque magique. En outre, les personnages qui ne sont pas de l'Engeance du Warp ne peuvent pas rejoindre les unités qui le sont, et vice versa."
     },
     {
         "nom": "Esquiveur",
-        "effet": "Une fois par tour, quand cette unité est désignée comme cible durant la phase de tir ennemie, elle peut choisir de Se replier en Bon Ordre et fuira directement à l'opposé de l'unité qui lui tire dessus. Une fois que cette unité a terminé son mouvement, l'unité ennemie peut effectuer les tirs qu'elle avait déclarés."
+        "effet": "Une fois par tour, quand cette unité est désignée comme cible durant la phase de tir ennemie, elle peut choisir de Se Replier en Bon Ordre et fuira directement à l'opposé de l'unité qui lui tire dessus. Une fois que cette unité a terminé son mouvement, l'unité ennemie peut effectuer les tirs qu'elle avait déclarés."
     },
     {
-        "nom": "Frappe en premier",
-        "effet": "A la phase de Combat, une figurine ayant cette règle qui est engagé en combat porte sa caractéristique d'initiative à 10. Si une figurine a cette règle et frappe en dernier, les deux s'annulent."
+        "nom": "Escorteurs De Chars",
+        "effet": "Les figurines amies dont le type de troupe est \"char\" peuvent tracer une ligne de vue par-dessus ou à travers les figurines ayant cette règle spéciale et peuvent se déplacer à travers des unités d'Escorteurs de Chars amies qui sont en formation de Tirailleurs. Si à la suite de son mouvement, le char se retrouve \"sur\" un Escorteur de Char, poussez simplement l'Escorteur de Char de côté, de la plus petite distance possible, pour faire de la place au char. Tant qu'elles sont en formation de Tirailleurs, les unités d'Escorteurs de Chars peuvent traiter les chars amis qui sont à 1\" d'au moins une des figurines de l'unité comme faisant partie de l'unité pour ce qui est de la cohérence d'unité."
     },
     {
-        "nom": "Immunise à la psychologie",
-        "effet": "Si la majorité des figurines d'une unité sont immunisés à la physchologie, l'unité réussit auto tout test de peur, de panique ou de terreur. Toutefois, si la majorité des figurines d'une unité ont cette règle, l'unité ne peut pas choisir la fuite comme réaction de charge."
+        "nom": "Éthéré",
+        "effet": "Les créatures Éthérées traitent tous les terrains comme du terrain découvert pour ce qui est du mouvement. Elles ne peuvent pas terminer leur mouvement à l'intérieur d'un terrain infranchissable, mais elles peuvent le traverser. En outre, les créatures Éthérées ne peuvent être blessées que par des attaques Magiques. Les personnages qui ne sont pas Éthérés ne peuvent pas rejoindre des unités qui le sont, et vice versa"
     },
     {
-        "nom": "Ignore les couverts",
-        "effet": "Si une figurine effectuant une attaque de tir à cette règle spéciale, elle ignore tout modificateur au jet de touche causé par un couvert léger ou lourd."
+        "nom": "Frappe En Dernier",
+        "effet": "À la phase de Combat, une figurine ayant cette règle spéciale qui est engagée en combat réduit sa caractéristique d'Initiative à 1 (avant que tout autre modificateur soit appliqué). Si une figurine a cette règle et Frappe en Premier, les deux règles s'annulent mutuellement."
     },
     {
-        "nom": "Mouvement à couvert",
-        "effet": "Les figurines ayant cette règle ne subissent pas de modificateurs à leur caractéristique de Mouvement quand ils se déplacent à travers un terrain difficile ou dangereux. En outre, une figurine ayant cette règle spéciale peut relance tout jet de 1 à ses tests de terrain Dangereux."
+        "nom": "Frappe En Premier",
+        "effet": "À la phase de Combat, une figurine ayant cette règle spéciale qui est engagée en combat porte sa caractéristique d'Initiative à 10 (avant que tout autre modificateur soit appliqué). Si une figurine a cette règle et Frappe en Dernier, les deux règles s'annulent."
+    },
+    {
+        "nom": "Frénésie",
+        "effet": "Une figurine Frénétique a un modificateur de + 1 à sa caractéristique d'Attaques. Ce modificateur ne s'applique pas à la monture de la figurine (dans le cas d'une figurine de cavalerie), aux bêtes qui la tracte ( dans le cas d'un char), ou à son cavalier (dans le cas d'un monstre). \n\n • De plus : Si la majorité des figurines d'une unité sont Frénétiques, l'unité réussit automatiquement tout test de Peur, de Panique ou de Terreur qu'elle doit effectuer \n • Si une unité qui inclut au moins une figurine Frénétique peut déclarer une charge pendant la sous-phase Déclarer les Charges & les Réactions de charge de son tour, elle doit le faire.\n • Si la majorité des figurines d'une unité sont Frénétiques, elle ne peut pas choisir de Fuir en tant que réaction de charge, et elle ne peut jamais choisir d'effectuer un test de Retenue \n\nPerdre la Frénésie : Contrairement aux autres règles spéciales, la Frénésie peut être perdue en cours de partie. Toute figurine qui perd un round de combat perd immédiatement cette règle spéciale."
+    },
+    {
+        "nom": "Fuite Feinte",
+        "effet": "Si cette unité choisit de Fuir (ou Tirer & Fuir) comme réaction de charge, elle se rallie automatiquement à la fin de son mouvement, comme décrit page 117."
+    },
+    {
+        "nom": "Grande Cible",
+        "effet": "Les figurines ennemies ne subissent jamais de modificateurs aux jets de Touche pour le couvert léger ou lourd quand elles tirent sur des figurines ayant cette règle spéciale. En outre, une figurine peut tracer une ligne de vue sur une figurine ayant cette règle spéciale par-dessus ou à travers d'autres figurines, et vice versa."
+    },
+    {
+        "nom": "Haine (X)",
+        "effet": "Une figurine ayant cette règle spéciale peut relancer tout jet de Touche raté effectué contre un ennemi haï au premier round de combat. L'identité de ces ennemis haïs varie d'unefigurine à l'autre et sera indiquée entre parenthèses après le nom de cette règle spéciale (ici, \"X\"). Certaines figurines haïssent \"tous les ennemis\" ; ce qui signifie qu'elles haïssent toutes les figurines ennemies sans exception."
+    },
+    {
+        "nom": "Horde",
+        "effet": "Une unité ayant cette règle spéciale peut augmenter le Bonus de Rang maximal qu'elle peut recevoir (déterminé par son type de troupe) de l."
+    },
+    {
+        "nom": "Howdah",
+        "effet": "Pour représenter son howdah et son équipage, un béhémoth ayant cette règle spéciale a un profil mixte et suit les règles de \"Profil Mixte (Chars)\" et de \"Plateforme de tir\" (voir page 194). À tous autres égards, cette figurine est un béhémoth."
+    },
+    {
+        "nom": "Ignore Les Couverts",
+        "effet": "Si une figurine effectuant une attaque de tir a cette règle spéciale, elle ignore tout modificateur au jet de Touche causé par un couvert léger ou lourd."
+    },
+    {
+        "nom": "Immunisé À La Psychologie",
+        "effet": "Si la majorité des figurines d'une unité sont immunisées à la Psychologie, l'unité réussit automatiquement tout test de Peur, de Panique ou de Terreur qu'elle doit effectuer. Toutefois, si la majorité des figurines d'une unité ont cette règle spéciale, l'unité ne peut pas choisir la Fuite comme réaction de charge.\n\n Notez que cette règle spéciale ne rend pas une unité immunisée à tout autre test effectué sous le Commandement qui n 'est pas mentionné ici."
+    },
+    {
+        "nom": "Impétueux",
+        "effet": "Si, au cours de la sous-phase de Déclarer les Charges & Réactions aux Charges de son tour, une unité qui inclut au moins une figurine Impétueuse peut déclarer une charge, jetez un D6. Sur 1-3, l'unité doit déclarer une charge. Sur 4+, l'unité peut agir normalement."
+    },
+    {
+        "nom": "Incommode",
+        "effet": "Une arme ayant cette règle spéciale subit un modificateur de -2 au jet de Touche quand son porteur se Déplace et Tire, plutôt que le -1 habituel."
+    },
+    {
+        "nom": "Indémoralisable",
+        "effet": "Si une unité ayant cette règle spéciale perd un round de combat, elle n'a pas à effectuer de test de Moral. À la place, elle Cède du Terrain automatiquement comme elle est repoussée par l'ennemi. Les personnages qui ne sont pas Indémoralisables ne peuvent pas rejoindre d'unités qui le sont, et vice versa."
+    },
+    {
+        "nom": "Inflammable",
+        "effet": "Une figurine ayant cette règle spéciale ne peut pas effectuer de sauvegarde de Régénération contre une blessure causée par une attaque Enflammée."
+    },
+    {
+        "nom": "Instables",
+        "effet": "Nombre de créatures maléfiques ne sont pas véritablement vivantes, mais plutôt mues par la magie. Si le cours de la bataille venait à changer, cette magie pourrait s'effondrer rapidement.\n\nSi une unité ayant cette règle spéciale perd un round de combat, elle perd un nombre de Points de Vie additionnels égal à la différence entre les résultats de combat. Ces PV sont perdus après le calcul du résultat de combat mais avant d'effectuer les tests de Moral.\n\n Si une unité Instable contient un ou plusieurs personnages Instables, allouez les blessures à l'unité jusqu'à ce que chaque figurine se soit vue allouer 1 blessure. Les éventuelles blessures restantes sont réparties aussi équitablement que possible entre le(s) personnage(s) et l'unité."
+    },
+    {
+        "nom": "Mercenaires",
+        "effet": "Souvent, une armée pourra inclure des unités issues d'une autre liste d'armée en tant que Mercenaires. Toute unité incluse à votre armée de la sorte gagne cette règle spéciale. Les mercenaires ne peuvent pas utiliser la règle Présence Charismatique du Général de l'armée (voir page 203), ni la règle Tenez vos Rangs d'un Porteur de la Grande Bannière (voir page 203). Les mercenaires ne peuvent pas être rejoints par des personnages tirés d'une autre liste d'armée."
+    },
+    {
+        "nom": "Mouvement À Couvert",
+        "effet": "Les figurines ayant cette règle spéciale ne subissent pas de modificateurs à leur caractéristique de Mouvement quand ils se déplacent à travers un terrain difficile ou dangereux. En outre, une figurine ayant cette règle spéciale peut relancer tout jet de 1 à ses tests de Terrain Dangereux."
+    },
+    {
+        "nom": "Mouvement Aléatoire",
+        "effet": "Les figurines ayant cette règle spéciale n'ont pas de caractéristique de Mouvement normale. À la place, leur profil affiche un jet de dé (2D6, par exemple). Chaque fois qu'une figurine ayant cette règle spéciale se déplace (pour quelque raison que ce soit), jetez les dés pour déterminer la distance à laquelle elle se déplace.\n\nLes figurines ayant cette règle spéciale se déplacent à la sous­phase des Mouvements Obligatoires. Elles ne peuvent pas effectuer de marche forcée ou déclarer de charge. Elles peuvent effectuer des roues pour changer de direction, mais ne peuvent pas exécuter d'autres manœuvres. Si la figurine peut entrer en contact avec une unité à la sous-phase des Mouvements Obligatoires ou pendant une poursuite, elle peut le faire et compte comme ayant chargé. La figurine s'aligne sur l'unité ennemie et cesse de se déplacer. Une unité chargée de cette façon doit Tenir sa Position.\n\nSi toutes les figurines d'une unité ont cette règle spéciale, faites un seul jet pour toute l'unité. Si au moins deux figurines d'une unité ont des caractéristiques de Mouvement Aléatoire différentes, faite un jet pour chacune et utilisez le résultat le plus bas pour la totalité de l'unité."
+    },
+    {
+        "nom": "Mouvement & Tir",
+        "effet": "Une arme ayant cette règle spéciale peut être utilisée à la phase de Tir même si la figurine qui en est équipée a effectué une marche forcée à ce tour."
+    },
+    {
+        "nom": "Mouvement De Réserve",
+        "effet": "À moins qu'elle ait chargé, effectué une marche forcée ou fui à la phase de Mouvement de son tour, une unité ayant cette règle spéciale peut effectuer un mouvement de Réserve à la fin de la phase de Tir de son tour, après que tous les tirs ont été résolus. Une unité qui effectue un mouvement de Réserve se déplace comme décrit dans les règles de Base de Mouvement. Elle peut manœuvrer normalement, mais ne peut pas faire de marche forcée."
+    },
+    {
+        "nom": "Mouvement Ou Tir",
+        "effet": "Une arme ayant cette règle spéciale ne peut pas être utilisée à la phase de Tir si la figurine qui en est équipée s'est déplacée pour quelque raison que ce soit au cours de ce tour (y compris pour un ralliement ou une reformation)."
+    },
+    {
+        "nom": "Mur De Boucliers",
+        "effet": "Une fois par partie, lors d'un tour où elle a été chargée, une unité ayant cette règle spéciale qui est disposée en formation en Ordre Serré, qui est équipée de bouclier et qui choisit de les utiliser, peut Céder du Terrain au lieu de Se Replier en Bon Ordre."
     },
     {
         "nom": "Obstiné",
-        "effet": "La première fois que cette unité doit effectuer un test de Moral, elle peut choisir de ne pas le faire pour se Replier en Bon Ordre automatiquement à la place, même si la puissance d'unité du camp victorieux est supérieur au double de celle du camp vaincu. Une unité qui n'est pas Obstinée ne devient pas obstinée quand un personnage qui l'est la rejoint. Un personnage Obstiné ne peut pas utiliser cette règle spéciale tant qu'il fait partir d'une unité qui n'est pas obstinée."
+        "effet": "La première fois que cette unité doit effectuer un test de Moral, elle peut choisir de ne pas le faire pour se Replier en Bon Ordre automatiquement à la place, même si la Puissance d'Unité du camp victorieux est supérieure au double de celle du camp vaincu. Une unité qui n'est pas Obstinée ne devient pas Obstinée quand un personnage qui l'est la rejoint. Un personnage Obstiné ne peut pas utiliser cette règle spéciale tant qu'il fait partie d'une unité qui n'est pas Obstinée."
     },
     {
-        "nom": "Ordre serré",
-        "effet": "Une unité composée de figurines avec cette règle spéciale peut adopter une formation Ordre Serré. (voir page 100)"
+        "nom": "Ordre Dispersé",
+        "effet": "Une unité constituée de figurines ayant cette règle spéciale peut adopter une formation en Ordre Dispersé, comme décrit page 182.)"
     },
     {
-        "nom": "Ordre dispersé",
-        "effet": "Une unité composée de figurines avec cette règle spéciale peut adopter une formation Ordre Dispersé. (voir page 182)"
+        "nom": "Ordre Serré",
+        "effet": "Une unité constituée de figurines ayant cette règle spéciale peut adopter une formation en Ordre Serré, comme décrit p. 100."
     },
     {
         "nom": "Peau blindée (x)",
-        "effet": "Le cuir de certaines créatures constitue une armure naturelle et améliore leur valeur d'armure(et celle de leur cavalier). Le degré d'amélioration de la valeur d'amure peut varier, comme indiqué entre parenthèse (X)"
+        "effet": "Le cuir de certaines créatures constitue une armure naturelle et améliore leur valeur d'armure (et celle de leur cavalier). Le degré d'amélioration de la valeur d'armure peut varier d'une figurine à l'autre, comme indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"X\")."
     },
     {
         "nom": "Peur",
-        "effet": " les figurines ayant cette règle spécial causent la Peur : \n\n • Si une unité souhaite déclarer une charge contre une unité ennemie qui cause la Peur et a une Puissance d'Unité plus élevée, elle doit d'abord effectuer un test de CD. En cas d'échec, l'unité ne peut pas charger. Elle ne se dépace pas et est considérée comme ayant effectué une charge ratée. En cas de réussite, lunité peut charger normalement. \n\n• Si une unité est engagée avec une unité ennemeie qui cause la Peur et a une Puissance d'Unité plus élevée Son combat est choisi pendant 'nimporte quelle sous-phase Choisir & Livrer les Combats, elle doit effectuer un test de CD. En cas d'Echec, toute figurine de l'unité qui dirige ses attaques contre l'ennemi qui cause la Peur subit un modificateur de -1 a ses jets de Touche.\n\n Une unité n'a besoin d'effectuer qu'un seul test de Peur par tour.Les figurines qui causent la Peur sont immunisés à la Peur. \nUne unité qui ne cause pas la Peur ne devient pas immunisée à la Peur quand un personnage qui l'est la rejoint."
+        "effet": "Les figurines ayant cette règle spéciale causent la Peur : \n • Si une unité souhaite déclarer une charge contre une unité ennemie qui cause la Peur et n une Puissance d'Unité plus élevée, elle doit d'abord effectuer un test de Commandement. En cas d'échec, l'unité ne peut pas charger. Elle ne se déplace pas et est considérée comme ayant effectué une charge ratée. En cas de réussite, l'unité peut charger normalement. \n • Si une unité est engagée avec une unité ennemie qui cause la Peur et a une Puissance d'Unité plus élevée Son combat est choisi pendant n'importe quelle sous-phase Choisir & Livrer les Combats, elle doit effectuer un test de Commandement. En cas d'échec, toute figurine de l'unité qui dirige ses attaques contre l'ennemi qui cause la Peur subit un modificateur de -1 à ses jets de Touche. \n\n Une unité n'a besoin d'effectuer qu'un seul test de Peur par tour. Les figurines qui causent la Peur sont immunisées à la Peur. Une unité qui ne cause pas la Peur ne devient pas immunisée à la Peur quand un personnage qui l'est la rejoint."
     },
     {
-        "nom": "Pietinement",
-        "effet": "Les attaques piétinées ne peuvent être effectuées que par une figurine en contact socle à socle avec l'ennemi. Les attaques piétinées sont des attaques effectuées en combat qui frappent toujours à l'Initiative 1 (quels que soient les modificateurs) et qui touchent automatiquement en utilisant la caractéristique de Force non modifiée de la figurine."
-    },
-    {
-        "nom": "Premiere charge",
-        "effet": "Si la première charge de la partie de cette unité est réussie ( c-a-d si l'unité entre en contact avec la cible de la charge), la cible devient désorganisée jusqu'à la fin de la phase de Combat de ce tour."
-    },
-    {
-        "nom": "Résistance à la magie(x)",
-        "effet": "Le jet de lancement de tour sort ennemi( y compris les sorts Liés) qui cible une unité qui inclut une ou plusieurs figurines ayant cette règle subit un modificateur indiqué par X."
+        "nom": "Première Charge",
+        "effet": "Si la première charge de la partie de cette unité est réussie (c.-à-d. si l'unité entre en contact avec la cible de la charge), la cible de la charge devient Désorganisée jusqu'à la fin de la phase de Combat de ce tour."
     },
     {
         "nom": "Rapide",
-        "effet": "Une unité ayant cette règle augmente sa porté de charge de 3\" et quand elle effectue une jet de Charge, de fuite ou de poursuite elle peut appliquer un modificateur de +d6 au resultat"
+        "effet": "Une unité ayant cette règle spéciale augmente sa portée de charge maximale possible de 3\" et, quand elle effectue un jet de Charge, de Fuite ou de Poursuite, elle peut appliquer un modificateur de +D6 au résultat."
     },
     {
-        "nom": "Tirailleurs",
-        "effet": "Une unité constituée de figurines ayant cette règle spéciale peut adopter une formation de tirailleurs, comme décrit page 184."
+        "nom": "Régénération (X+)",
+        "effet": "Une figurine ayant cette règle spéciale peut effectuer une sauvegarde de \"Régénération\"'. La valeur d'armure d'une sauvegarde de Régénération est indiquée entre parenthèses après le nom de la règle spéciale (ici, \"X+\"). Une sauvegarde de Régénération ne peut jamais être modifiée par la caractéristique de PA d'une arme et peut être effectuée en plus d'une sauvegarde d'armure et d'une sauvegarde Invulnérable. Cependant, toute blessure sauvegardée par une sauvegarde de Régénération est tout de même comptée pour le calcul du résultat de combat."
+    },
+    {
+        "nom": "Résistance À La Magie (-X) ",
+        "effet": "Le jet de lancement de tout sort ennemi (y compris les sorts Liés) qui cible une unité qui inclut une ou plusieurs figurines ayant cette règle spéciale subit un modificatem comme indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"-X\")."
+    },
+    {
+        "nom": "Solitaire",
+        "effet": "Un personnage ayant cette règle spéciale ne peut pas être votre Général et ne peut pas rejoindre une unité n'ayant pas cette règle spéciale. Une unité ayant cette règle spéciale ne peut pas être rejointe par un personnage n'ayant pas cette règle spéciale."
+    },
+    {
+        "nom": "Stupidité",
+        "effet": "À moins d'être engagée en combat, une unité ayant cette règle spéciale doit effectuer un test de \"Stupidité\" à la sous-phase de Début du Tour de son tour. Pour effectuer un test de Stupidité, faites un test sous la caractéristique de Commandement. En cas d'échec, l'unité devient Stupide. Une unité Stupide :\n • Se déplace à la sous-phase des Mouvements Obligatoires \n• Doit se déplacer droit devant en ligne droite sans effectuer la moindre manœuvre.\n • Ne peut pas faire de marche forcée ni déclarer de charge.\n\nUne unité ou une monture qui n'a pas cette règle spéciale y devient sujette quand elle est rejointe ou chevauchée par un personnage qui y est sujet (la Stupidité est contagieuse)."
     },
     {
         "nom": "Terreur",
-        "effet": "Les figurines ayant cette règle causent la Terreur. Les figurines qui causent la Terreur causent aussi la Peur (voir page 168) \n\n•Quand une unité qui cause la Terreur déclare une charge, la cible de la charge doit immédiatement effectuer un test de CD. En cas d'échec, elle doit Fuir. En cas de réussite, elle peut déclarer normalement sa réaction de charge. \n\n• Si le camp victorieux d'un combat inclut au moins une unité qui cause la Terreur, chaque unité du camp vaincu doit appliquer un modificateur de -1 à sa caractéristique de CD quand elle effectue son test de Moral. \n\n Les figurines ayant la règle Peur ont Peur des figurines qui causent la Terreur. Les figurines qui causent la Terreur sont immunisés à la Terreur. Une unité qui ne cause pas la Terreur ne devient pas immunisée à la Terreur quand une figurine qui cause la Terreur la rejoint."
+        "effet": "Les figurines ayant cette règle spéciale causent la Terreur. Les figurines qui causent la Terreur causent aussi la Peur, comme décrit page 168:\n • Quand une unité qui cause la Terreur déclare une charge, la cible de la charge doit immédiatement effectuer un test de Commandement. En cas d'échec, Elle doit Fuir. En cas de réussite, elle peut déclarer normalement sa réaction de charge.\n • Si le camp victorieux d'un combat inclut au moins une unité qui cause la Terreur, chaque unité du camp vaincu doit appliquer un modificateur de -1 à sa caractéristique de Commandement quand elle effectue son test de Moral.\n\n Notez que si une unité chargée ne peut pas choisir de Fuir, elle n'effectue pas ce test de Commandement. \n\n Les figurines ayant la règle spéciale Peur ont Peur des figurines qui causent la Terreur. Les figurines qui causent la Terreur sont immunisées à la Terreur. Une unité qui ne cause pas la Terreur ne devient pas immunisée à la Terreur quand une figurine qui cause la Terreur la rejoint."
     },
     {
-        "nom": "Tir et fuite",
-        "effet": "Une unité ayant cette règle spéciale qui est équipé d'armes à projectiles peut déclarer qu'elle va effectuer une réaction de charge \"Tir & Fuite\" : \n\n • L'unité tire une savle de projectiles avant de fuir l'ennemi. Si une unité ayant cette règle est dotée d'amre à projectiles et peut tracer une ligne de vue sur l'unité qui charge, elle peut déclarer qu'elle va Tirer & Fuir. L'unité Tient sa Position & Tire( page 120) avant de tourner les talons pour fuir la charge. Cepandant, en rasion du temps consacré au tir, quand elle effecture son jet de Fuite, l'unité jette deux D6 et défausse le résultat le plus bas."
+        "nom": "Timmm-berrr !",
+        "effet": "Quand cette figurine est réduite à zéro Point de Vie, le gagnant d'un jet au dé choisit un de ses arcs (avant, flanc ou arrière) où elle tombera. Toute unité qui se retrouve dans l'arc choisi et en contact socle à socle avec cette figurine subit D6 touches, chacune utilisant la caractéristique de Force de cette figurine, avec une PA de -1. Une fois ces touches résolues, cette figurine est retirée du jeu."
     },
     {
-        "nom": "Unité régimentaire",
-        "effet": "Une unité ayant cette règle peut être accompagné par des \"détachements\" (voir page 282)"
+        "nom": "Tirailleurs",
+        "effet": "Une unité constituée de figurines ayant cette règle spéciale peut adopter une formation de tirailleurs, comme décrit p.184."
+    },
+    {
+        "nom": "Tir De Volée",
+        "effet": "Quand une unité ayant cette règle spéciale effectue une attaque de tir, la moitié des figurines de chaque rang hormis le rang frontal (ou les deux rangs frontaux si l'unité est sur une colline), en arrondissant au supérieur, peuvent tirer ( en plus des figurines habituelles qui tirent du rang frontal, ou des deux rangs frontaux si l'unité est sur une colline). Une unité ne peut pas effectuer de Tir de Volée si elle s'est déplacée pour quelque raison que ce soit à ce tour (y compris pour une reformation), ou quand elle effectue une réaction de charge Tenir sa Position & Tirer. \n\nNotez que les figurines des rangs arrière utilisent la ligne de vue de la figurine à l'avant de leur colonne."
+    },
+    {
+        "nom": "Tir & Fuite",
+        "effet": "Une unité ayant cette règle spéciale qui est équipée d'armes à projectiles peut déclarer qu'elle va effectuer une réaction de charge \"Tir & Fuite\" : \n\n Tir & Fuite : L'unité tire une salve de projectiles avant de fuir l'ennemi. Si une unité ayant cette règle spéciale est dotée d'armes à projectiles et peut tracer une ligne de vue sur l'unité qui charge, elle peut déclarer qu'elle va Tirer & Fuir. L'unité Tient sa Position & Tire (comme décrit page 120) avant de tourner les talons pour fuir la charge. Cependant, en raison du temps consacré au tir, quand elle effectue son jet de Fuite, l'unité jette deux D6 et défausse le résultat le plus bas. En cas de double, défaussez n'importe quel dé. \n\n Notez que si la distance entre cette unité et l'unité qui charge est inférieure à la caractéristique de Mouvement de l'unité qui charge, cette unité doit soit Tenir sa Position, soit Fuir."
+    },
+    {
+        "nom": "Tir Rapide",
+        "effet": "Une arme ayant cette règle spéciale ne subit pas le modificateur habituel de -1 aux jets de Touche quand son porteur se Déplace et Tire. De plus, une unité équipée d'armes ayant cette règle spéciale peut les utiliser pour effectuer une réaction de charge Tenir sa Position & Tirer quelle que soit la proximité de l'unité qui charge."
+    },
+    {
+        "nom": "Tirs Multiples (X)",
+        "effet": "Une arme ayant cette règle spéciale peut soit tirer normalement un seul coup, soit tirer plusieurs fois, comme indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"X\"). Si les tirs multiples sont choisis, chaque jet de Touche subit un modificateur supplémentaire de -1. Toutes les figurines d'une unité équipées d'armes ayant cette règle spéciale doivent tirer soit un seul tir, soit des Tirs Multiples. Quand le nombre de Tirs Multiples est généré par un jet de dé, jetez les dés séparément pour chaque figurine."
+    },
+    {
+        "nom": "Touches d'impact (X)",
+        "effet": "Le nombre de Touches d'Impact varie d'une figurine à l'autre, et ce sera indiqué entre parenthèses après le nom de cette règle spéciale (ici, \"X\"). Souvent, cela sera déterminé par un jet de dé.\n Résoudre les Touches d'impact: Les Touches d'Impact ne peuvent être effectuées que par une figurine qui charge, qui s'est déplacée de 3\" ou plus et qui est en contact socle à socle avec l'ennemi. Les touches d'impact sont des attaques effectuées en combat qui frappent toujours avec une Initiative de 10 (quels que soient les modificateurs), et qui touchent automatiquement en utilisant la caractéristique de Force non modifiée de la figurine."
+    },
+    {
+        "nom": "Tracté",
+        "effet": "Une figurine ayant cette règle spéciale qui commence son mouvement à l\" d'une unité amie dont le type de troupe est \"infanterie\", qui n'est pas en fuite et qui contient au moins dix figurines, peut remplacer sa caractéristique de Mouvement par celui de l'unité."
+    },
+    {
+        "nom": "Tueur De Monstres",
+        "effet": "Si une figurine ayant cette règle spéciale obtient un 6 naturel quand elle effectue un jet de Blessure pour une attaque effectuée en combat, elle a asséné un \"Coup Tueur de Monstres\". Les figurines ennemies dont le type de troupe est \"monstre\" n'ont pas le droit d'effectuer un jet de sauvegarde d'armure ou de Régénération (voir page 176) contre un Coup Tueur de Monstres (les sauvegardes Invulnérables peuvent être tentées normalement). \n \nSi une figurine ennemie dont le type de troupe est \"monstre\" subit une blessure non sauvegardée d'un Coup Tueur de Monstre, elle perd tous ses Points de vie restants. \n Notez que si une attaque blesse automatiquement, cette règle spéciale ne peut pas être utilisée."
+    },
+    {
+        "nom": "Unité Régimentaire ",
+        "effet": "Une unité ayant cette règle spéciale peut être accompagné par des \"détachements\" (voir page 282)."
     },
     {
         "nom": "Vétérans",
-        "effet": "Si la majorité des figurines d'une unité ont cette règle spéciale, l'unité peut relancer tout test de Commandement raté."
+        "effet": "Si la majorité des figurines d'une unité ont cette règle spéciale, l'unité peut relancer tout test de Commandement raté. \nNotez qu'un test de Moral n est pas un test de Commandement."
+    },
+    {
+        "nom": "Vol (X)",
+        "effet": "Une figurine ayant cette règle spéciale peut Voler. Les figurines qui peuvent voler peuvent choisir soit de se déplacer normalement au sol (en utilisant leur caractéristique de Mouvement), soit de se déplacer en volant. La distance de Vol en pouces varie d'une figurine à l'autre, et sera indiquée entre parenthèses après le nom de cette règle spéciale (ici, \"X\" ). Les figurines qui choisissent de se déplacer en volant :\n • Peuvent se déplacer normalement (c. -à-d., peuvent charger, effectuer des marches forcées et manœuvrer comme si elles étaient au sol ), si ce n'est qu'elles peuvent passer librement par-dessus les autres figurines, unités et éléments de terrain sans pénalité, Et peuvent effectuer une marche forcée tant qu'elles sont à 8\" d'une unité ennemie sans avoir à effectuer de test de commandement au préalable. \n • Peuvent terminer leur mouvement sur des éléments de terrain, mais en subiront alors les effets. Elles ne peuvent pas terminer leur mouvement \"audessus\" d'un terrain infranchissable ou d'une autre unité, ou à l\" d'une unité ennemie.\n\nLes figurines qui peuvent Voler doivent commencer et terminer tous leurs mouvements au sol. Un personnage ayant cette règle spéciale ne peut pas rejoindre une unité n'ayant pas cette règle spéciale, et vice versa ."
     }
 ]

@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Épée Blanche",
+        "type": "Arme",
+        "points": 70,
+        "description": "Une lame légendaire forgée pour Aren, l'un des premiers Maîtres des Épées de Hoeth. L'épée Blanche est aussi grande qu'un Elfe, et pourtant aussi légère qu'une branche de saule.",
+        "stats": {
+          "range": "Combat",
+          "strength": "F+3",
+          "armour_piercing": "-2",
+          "special_rules": [
+            "Attaques Magiques",
+            "Tueur De Monstres",
+            "Arme à Deux Mains",
+            "Frappe En Dernier"
+          ]
+        },
+        "notes": "Les figurines dont le type de troupe est 'Infanterie' ou 'Char' uniquement."
+      },
+      {
+        "name": "Lame d'Or Bondissant",
+        "type": "Arme",
+        "points": 50,
+        "description": "Epée la plus équilibrée qui fut jamais forgée de mémoire d'Elfe, la Lame d'Or Bondissant confère une vitesse et une vigueur surnaturelle au brave, et réserve une mort des plus rapide au veule et au corrompu.",
+        "stats": {
+          "range": "Combat",
+          "strength": "F",
+          "armour_piercing": "-",
+          "special_rules": [
+            "Arme Perforante (2)",
+            "Attaques Magiques",
+            "Attaques Supplémentaires(+D3)"
+          ]
+        },
+        "notes": ""
+      },
+      {
+        "name": "Arc du Patrouilleur",
+        "type": "Arme",
+        "points": 40,
+        "description": "Certaines légendes prétendent que cet arc fut assemblé par le Prince Arathion d'Ellyrion, il y a un millénaire de cela.",
+        "stats": {
+          "range": "30\"",
+          "strength": "F+1",
+          "armour_piercing": "-",
+          "special_rules": [
+            "Attaques Magiques",
+            "Arme Perforante (1)",
+            "Tir de Volée"
+
+          ]
+        },
+        "notes": "L'arc du Patrouilleur compte comme un Arc d'Avelron. Le porteur de l'Arc du Patrouilleur peut effectuer autant d'attaques de tir que sa caractéristique d'Attaques, au lieu de 1 habituellement. Cette figurine ne subit aucun modificateur dû aux tirs multiples"
+      },
+      {
+        "name": "Epée du Bannissement",
+        "type": "Arme",
+        "points": 20,
+        "description": "Cette lame étrange et ondulée fut ramassée près du cadavre d'un Champion du Chaos. Nul ne sait où lui-même l'avait trouvée, pas plus qu'on ne se souvient du nom de l'Elfe qui l'a ramassée.",
+        "stats": {
+          "range": "30\"",
+          "strength": "F+1",
+          "armour_piercing": "-",
+          "special_rules": [
+            "Attaques Magiques"
+
+          ]
+        },
+        "notes": "Quand le porteur de l'Epée du Bannissement fait un jet de Blessure, un jet de 4+ réussit toujours, quelle que soit l'Endurance de la cible."
+      },
+      {
+        "name": "Bannière de Protection Magique",
+        "type": "Baner",
+        "points": 70,
+        "description": "Le lourd tissu de cette bannière crépite d'énergie magique, signe qu'elle renferme un puissant charme de portection.",
+        "effet":"Le lourd tissu de cette bannière crépitait d'énergie magique, signe qu'elle renfermait un puissant charme de protection. Une unité portant la Bannière de Protection Magique gagne la règle spéciale Résistance à la Magie (-3). De plus, les unités amies à 6\" de la figurine portant cette bannière gagnent la règle spéciale Résistance à la Magie (-1).",
+        "notes": ""
+      }
+      
+      
+]

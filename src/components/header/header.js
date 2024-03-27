@@ -8,8 +8,11 @@ function Header() {
             <ul >
                 <img src={logo} className='logo' alt='Logo marteau'></img>
                 <NavLink className="active link-menu" to='/'>Résumé d'un tour</NavLink>
-                <NavLink className="active link-menu" to='/regle-he'>Règle HE</NavLink>
-                <NavLink className="link-menu" to='/regle'>Règle Spé</NavLink>
+                
+                <NavLink className="link-menu" to='/regle'>Règles Spéciales</NavLink>
+                <NavLink className="link-menu" to='/objetm'>Objets Magiques</NavLink>
+                <NavLink className="link-menu" to='/domaine'>Domaine de Magie</NavLink>
+                <NavLink className="link-menu" to='/regle-he'>Haut elfe</NavLink>
             </ul>
         </header>
     );
