@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/tow-react/static/css/main.9b6a8319.css",
-    "main.js": "/tow-react/static/js/main.3e74c466.js",
+    "main.css": "/tow-react/static/css/main.c7bdf838.css",
+    "main.js": "/tow-react/static/js/main.9c4b9ed8.js",
     "static/js/453.1d3cc0f5.chunk.js": "/tow-react/static/js/453.1d3cc0f5.chunk.js",
     "static/media/marteau-de-thor.svg": "/tow-react/static/media/marteau-de-thor.565ca82b4ea6a302cd6d0e9b3351f176.svg",
     "index.html": "/tow-react/index.html",
-    "main.9b6a8319.css.map": "/tow-react/static/css/main.9b6a8319.css.map",
-    "main.3e74c466.js.map": "/tow-react/static/js/main.3e74c466.js.map",
+    "main.c7bdf838.css.map": "/tow-react/static/css/main.c7bdf838.css.map",
+    "main.9c4b9ed8.js.map": "/tow-react/static/js/main.9c4b9ed8.js.map",
     "453.1d3cc0f5.chunk.js.map": "/tow-react/static/js/453.1d3cc0f5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b6a8319.css",
-    "static/js/main.3e74c466.js"
+    "static/css/main.c7bdf838.css",
+    "static/js/main.9c4b9ed8.js"
   ]
 }
