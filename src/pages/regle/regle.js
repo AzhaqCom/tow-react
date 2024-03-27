@@ -1,9 +1,10 @@
-import React,{useState} from 'react'
+import React, { useState } from 'react'
 import RulesData from '../../regle.json';
+
 function Regle() {
     const [searchTerm, setSearchTerm] = useState(''); // État pour stocker le terme de recherche
-    const [toggleAll, setToggleAll] = useState(false); // État pour activer ou désactiver l'affichage de toutes les règles
     const [filteredRules, setFilteredRules] = useState(RulesData); // État pour stocker les règles filtrées
+    const [openRuleIndex, setOpenRuleIndex] = useState(null); // État pour stocker l'index de la règle ouverte
 
     // Fonction de gestion du changement de terme de recherche
     const handleSearchChange = (event) => {
@@ -17,13 +18,9 @@ function Regle() {
         setFilteredRules(filtered);
     };
 
-    // Fonction de gestion du changement d'affichage de toutes les règles
-    const toggleAllRules = () => {
-        setToggleAll(!toggleAll);
-        setSearchTerm(''); // Réinitialiser le terme de recherche lorsque l'utilisateur active ou désactive l'affichage de toutes les règles
-        if (!toggleAll) {
-            setFilteredRules(RulesData); // Afficher toutes les règles si l'affichage de toutes les règles est activé
-        }
+    // Fonction de gestion du clic sur un titre de règle
+    const handleRuleClick = (index) => {
+        setOpenRuleIndex(index === openRuleIndex ? null : index); // Ouvrir la règle si elle est fermée, sinon la fermer
     };
 
     return (
@@ -35,27 +32,24 @@ function Regle() {
                 onChange={handleSearchChange}
                 className="search-input"
             />
-        
-            {filteredRules.map(rule => (
-                <RuleItem key={rule.nom} data={rule} />
-            ))}
+            <div className='container-grid'>
+                {filteredRules.map((rule, index) => (
+                    <RuleItem key={rule.nom} data={rule} isOpen={index === openRuleIndex} onClick={() => handleRuleClick(index)} />
+                ))}
+            </div>
         </div>
     );
 }
 
 function RuleItem(props) {
-    const { data } = props;
-    const [toggle, setToggle] = useState(false);
-
-    const handleClick = () => {
-        setToggle(!toggle); // Inverser l'état de toggle à chaque clic
-    };
+    const { data, isOpen, onClick } = props;
 
     return (
-        <div className="rule-item">
-            <h4 className="rule-title" onClick={handleClick}>{data.nom}</h4>
-            {toggle && <p className="rule-effect">{data.effet}</p>} {/* Afficher l'effet uniquement si toggle est true */}
+        <div className="rule-item" onClick={onClick}>
+            <h4 className="rule-title" >{data.nom}</h4>
+            {isOpen && <p className="rule-effect">{data.effet}</p>}
         </div>
     );
 }
-export default Regle
+
+export default Regle;

@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Maître du Savoir",
+        "points": 35,
+        "description": "Parmi les prophètes et les savants qui résident dans la Tour de Hoeth, certains sont autant versés dans les arts mystiques que dans les arts martiaux. Tel est l'accomplissement qui démarque les maîtres du Savoir des autres érudits.",
+        "effect":"Seigneurs Hauts Elfes uniquement\n Un personnage ayant l'Honneur Elfique Maître du Savoir : \n •Ne peut pas être monté. \n•Est un Sorcier de Niveau 1 et connaît 1 sort généré aléatoirement de l'un des Domaines de Magie (Magie de Bataille, Elémentalisme, Haute Magie, Illusionnisme).\n• Peut être équipé d'une Épée de Hoeth sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Gagne les règles spéciales Armure en Ithilmar, Bienfait de Lileath et Domaine de Saphery."
+    },
+    {
+        "name": "Rôdeur des Ombres",
+        "points": 20,
+        "description": "Comme tous les habitants de Nagarythe, les Rôdeurs des Ombres sont des proscrits. Nombre d'entre eux choisissent de s'aventurer loin d'Ulthuan afin de livrer des guerres clandestines pour défendre leur patrie.",
+        "effect":"Un personnage ayant l'Honneur Elfique Rôdeur des Ombres : \n• Ne peut être monté.\n• Peut être équipé d'un Arc d'Averlorn sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Ne peut pas avoir d'armure lourde ou d'armure de plate complète.\n• Gagne les règles spéciales Embusqueurs, Esquiveur, Tir & Fuite, Mouvement à Couvert et Éclaireurs."
+    },
+    {
+        "name": "Elu d'Asuryan",
+        "points": 15,
+        "description": "Que ce soit dans le domaine martial ou pour les questions spirituelles, les Gardes Phénix s'en remettent à l'autorité des Élus d'Asuryan, des sages imprégnés des enseignements d'Asuryan au fil des siècles.",
+        "effect":"Un personnage ayant l'Honneur Elfique Élu d'Asuryan:\n• Peut être monté sur un Phénix Spire-de-feu ou un Phénix Cœur-de-Givre (mais ne peut pas choisir d'autre monture).\n• Peut être équipé d'une Hallebarde de Cérémonie sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Gagne les règles spéciales Bénédictions d'Asuryan, Peur et Témoins du Destin.\n• Remplace la règle spéciale Valeur des Âges par la règle spéciale Vétérans."
+    },
+    {
+        "name": "Sang de Caledor",
+        "points": 15,
+        "description": "Ulthuan était autrefois dominée par la valeur et la sagesse des Princes Dragons de Caledor. Bien que la lignée royale ait aujourd'hui perdu de sa superbe, l'orgueil de l'élite guerrière de Caledor brille toujours.",
+        "effect":"Un personnage ayant l'Honneur Elfique Sang de Caledor :\n• Doit être monté sur un Coursier Elfique Caparaçonné, un Dragon Solaire, un Dragon Lunaire ou un Dragon Stellaire.\n• A un modificateur de +1 à sa CC.\n• Peut être équipé d'une armure de plate complète sans coût additionnel.\n• Gagne les règles spéciales Armure Dragon et Impétueux"
+    },
+    {
+        "name": "Chasseur Chracien",
+        "points": 10,
+        "description": "En Chrace, l'habileté aux armes et la force de caractère ont presque autant de valeur que la noblesse du sang d'un guerrier, et les plus éminents d'entre eux s'élèvent dans les rangs des Lions Blancs.",
+        "effect":"Un personnage ayant l'Honneur Elfique Chasseur Chracien :\n• Peut être monté uniquement sur un Char à Lions de Chrace (et ne peut donc avoir d'autre monture).\n• Peut être équipé d'une grande lame de Chrace sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Gagne la règle spéciale Cape du Lion, Mouvement à Couvert et Obstiné."
+    },
+    {
+        "name": "Gardien de Sapehery",
+        "points": 10,
+        "description": "Quand Ulthuan va en guerre, les Maîtres des Épées de Hoeth sont menés par les Gardiens de Saphery, des parangons des arts martiaux qui ont étudié pendant des décennies l'art de la guerre et du combat individuel.",
+        "effect":"Un personnage ayant l'Honneur Elfique Gardien de Saphery :\n• Ne peut pas être monté.\n• Peut être équipé d'une Épée de Hoeth sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Gagne les règles spéciales Tirs Déviés, Armure en Ithilmar et Coup Fatal."
+    },
+    {
+        "name": "Pur de Coeur",
+        "points": 0,
+        "description": "Si l'Âge d'Or d'Ulthuan n'est plus qu'un lointain souvenir, certains nobles incarnent encore la splendeur des Hauts Elfes, leur présence rappelant aux autres le passé héroïque de leur peuple.",
+        "effect":"À moins que ce personnage  soit en fuite, toutes les unités amies à portée de Commandement peuvent utiliser sa caractéristique de Cd au lieu de la leur. De plus, ce personnage et toute unité qu'il a rejointe réussissent automatiquement tout test de Panique qu'ils sont amenés à faire"
+    },
+    {
+        "name": "Garde Maritime",
+        "points": 0,
+        "description": "Nombre de nobles de Lothern choisissent de servir dans les rangs de la Garde Maritime, et obtiennent rapidement le rang d'officier dans la marine d'Ulthuan avant de partir parfaire leurs talents sur des fronts lointains.",
+        "effect":"Un personnage ayant l'Honneur Elfique Garde Maritime :\n• Peut être monté uniquement sur un Cotre Volant de Lothern (et ne peut donc choisir d'autres montures).\n• Peut être équipé d'un arc de guerre sans coût additionnel. Dans ce cas, il ne peut pas prendre d'armes non-magiques additionnelles.\n• Gagne les règles spéciales Discipline Navale et Cri de Ralliement."
+    }
+   
+]

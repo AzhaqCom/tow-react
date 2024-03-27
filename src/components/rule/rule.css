@@ -4,12 +4,12 @@
     padding: 10px;
     border-radius: 5px;
     text-align: left;
-    width: 100%;
+    height: max-content;
 }
 
 .rule-title {
     cursor: pointer;
-    color: #ebf1fa; 
+    color: #ebf1fa;
     margin-bottom: 5px;
     margin-top: 5px;
     text-align: left;
@@ -20,7 +20,8 @@
     color: #fff;
     white-space: pre-line;
 }
-.container{
+
+.container {
 
     background-color: #282c34;
     display: flex;
@@ -30,7 +31,37 @@
     max-width: 1366px;
     margin: 0 auto;
 }
-.search-input{
+
+.search-input {
     margin: 5px 0;
     padding: 5px;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 20px;
+}
+.honneur-item{
+    border: 1px solid #3a7bd5;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.container-honneur{
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+@media screen and (min-width:768px) {
+    .container-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .container-honneur{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

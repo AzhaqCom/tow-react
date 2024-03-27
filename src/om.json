@@ -1,81 +1,511 @@
 [
     {
+        "faction": "Haut Elfe",
         "name": "Épée Blanche",
         "type": "Arme",
         "points": 70,
         "description": "Une lame légendaire forgée pour Aren, l'un des premiers Maîtres des Épées de Hoeth. L'épée Blanche est aussi grande qu'un Elfe, et pourtant aussi légère qu'une branche de saule.",
         "stats": {
-          "range": "Combat",
-          "strength": "F+3",
-          "armour_piercing": "-2",
-          "special_rules": [
-            "Attaques Magiques",
-            "Tueur De Monstres",
-            "Arme à Deux Mains",
-            "Frappe En Dernier"
-          ]
+            "range": "Combat",
+            "strength": "F+3",
+            "armour_piercing": "-2",
+            "special_rules": [
+                "Attaques Magiques",
+                "Tueur De Monstres",
+                "Arme à Deux Mains",
+                "Frappe En Dernier"
+            ]
         },
         "notes": "Les figurines dont le type de troupe est 'Infanterie' ou 'Char' uniquement."
-      },
-      {
+    },
+    {
+        "faction": "Haut Elfe",
         "name": "Lame d'Or Bondissant",
         "type": "Arme",
         "points": 50,
         "description": "Epée la plus équilibrée qui fut jamais forgée de mémoire d'Elfe, la Lame d'Or Bondissant confère une vitesse et une vigueur surnaturelle au brave, et réserve une mort des plus rapide au veule et au corrompu.",
         "stats": {
-          "range": "Combat",
-          "strength": "F",
-          "armour_piercing": "-",
-          "special_rules": [
-            "Arme Perforante (2)",
-            "Attaques Magiques",
-            "Attaques Supplémentaires(+D3)"
-          ]
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Arme Perforante (2)",
+                "Attaques Magiques",
+                "Attaques Supplémentaires(+D3)"
+            ]
         },
         "notes": ""
-      },
-      {
+    },
+    {
+        "faction": "Haut Elfe",
         "name": "Arc du Patrouilleur",
         "type": "Arme",
         "points": 40,
         "description": "Certaines légendes prétendent que cet arc fut assemblé par le Prince Arathion d'Ellyrion, il y a un millénaire de cela.",
         "stats": {
-          "range": "30\"",
-          "strength": "F+1",
-          "armour_piercing": "-",
-          "special_rules": [
-            "Attaques Magiques",
-            "Arme Perforante (1)",
-            "Tir de Volée"
-
-          ]
+            "range": "30\"",
+            "strength": "F+1",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques",
+                "Arme Perforante (1)",
+                "Tir de Volée"
+            ]
         },
-        "notes": "L'arc du Patrouilleur compte comme un Arc d'Avelron. Le porteur de l'Arc du Patrouilleur peut effectuer autant d'attaques de tir que sa caractéristique d'Attaques, au lieu de 1 habituellement. Cette figurine ne subit aucun modificateur dû aux tirs multiples"
-      },
-      {
+        "notes": "L'arc du Patrouilleur compte comme un Arc d'Avelron. Le porteur de l'Arc du Patrouilleur peut effectuer autant d'attaques de tir que sa caractéristique d'Attaques, au lieu de 1 habituellement. Cette figurine ne subit aucun modificateur dû aux tirs multiples."
+    },
+    {
+        "faction": "Haut Elfe",
         "name": "Epée du Bannissement",
         "type": "Arme",
         "points": 20,
         "description": "Cette lame étrange et ondulée fut ramassée près du cadavre d'un Champion du Chaos. Nul ne sait où lui-même l'avait trouvée, pas plus qu'on ne se souvient du nom de l'Elfe qui l'a ramassée.",
         "stats": {
-          "range": "30\"",
-          "strength": "F+1",
-          "armour_piercing": "-",
-          "special_rules": [
-            "Attaques Magiques"
-
-          ]
+            "range": "30\"",
+            "strength": "F+1",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques"
+            ]
         },
         "notes": "Quand le porteur de l'Epée du Bannissement fait un jet de Blessure, un jet de 4+ réussit toujours, quelle que soit l'Endurance de la cible."
-      },
-      {
+    },
+    {
+        "faction": "Haut Elfe",
         "name": "Bannière de Protection Magique",
         "type": "Bannière",
         "points": 70,
         "description": "Le lourd tissu de cette bannière crépite d'énergie magique, signe qu'elle renferme un puissant charme de portection.",
-        "effet":"Le lourd tissu de cette bannière crépitait d'énergie magique, signe qu'elle renfermait un puissant charme de protection. Une unité portant la Bannière de Protection Magique gagne la règle spéciale Résistance à la Magie (-3). De plus, les unités amies à 6\" de la figurine portant cette bannière gagnent la règle spéciale Résistance à la Magie (-1).",
+        "effet": "Le lourd tissu de cette bannière crépitait d'énergie magique, signe qu'elle renfermait un puissant charme de protection. Une unité portant la Bannière de Protection Magique gagne la règle spéciale Résistance à la Magie (-3). De plus, les unités amies à 6\" de la figurine portant cette bannière gagnent la règle spéciale Résistance à la Magie (-1).",
         "notes": ""
-      }
-      
-      
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Bannière de Bataille",
+        "type": "Bannière",
+        "points": 60,
+        "description": "Cette bannière ouvragée est sertie de gemmes et brodées de scènes détaillées des plus grandes victoires d'Ulthuan.",
+        "effet": "Quand on calcule son résultat de combat, une unité portant la bannière de Bataille peut recevoir un bonus additionnel de +D3 points de résultat de combat.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Etandard du Lion",
+        "type": "Bannière",
+        "points": 25,
+        "description": "Le courage d'un lion de Chrace imprègne le coeur de ceux qui servent sous cette bannière.",
+        "effet": "Une unité portant l'Etendard du Lion réussit automatiquement tout test de Peur ou de Terreur qu'elle est amenée à faire.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Bannière d'Ellyrion",
+        "type": "Bannière",
+        "points": 20,
+        "description": "Ce petit étendard représente Karhandir, le père de tous les chevaux, et donne au régiment du porteur une énergie inextinguible.",
+        "effet": "Une unité portant la Bannière d'Ellyrion gagne la règle spéciale Mouvement à Couvert.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Armure de Caledor",
+        "type": "Armure",
+        "points": 35,
+        "description": "Chaque pièce de cette armure provient de protections portées autrefois par de grands héros de Caledor, et qui ont été perdues depuis.",
+        "effet": "L'Arure de Caledor est une armure de plate complète. \n De plus, son porteur a une Sauvegarde Invulnérable de 5+ contre toute blessure subie.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Heaume Dragon",
+        "type": "Armure",
+        "points": 10,
+        "description": "Façonné à l'image de la tête d'une grande guivre, le Heaume Dragon se souvient de la chaleur de sa forge, et protège son proteur de la morsure des flammes.",
+        "effet": "Peut être porté avec d'autres armures. \nLe porteur du Heaume Dragon améliore de 1 sa valeur d'armure (jusqu'à un maximum de 2+). De plus, son porteur a une Sauvegarde Invulnérable de 6+ contre toute blessure infligée par une attaque qui a la règle spéciale Attaques Enflammées.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Cape du Maître du Savoir",
+        "type": "Talisman",
+        "points": 30,
+        "description": "Enveloppée dans cette cape gris pâle, le porteur semble perdre sa consistance et devenir rien de plus qu'une illusion.",
+        "effet": "Le porteur de la Cape du Maître du Savoir et toute unité qu'il a rejointe ont une Sauvegarde Invulnérable de 4+ contre toute blessure subie à cause d'un Projectile Magique.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Amulette d'opale",
+        "type": "Talisman",
+        "points": 30,
+        "description": "L'amulette d'opale confère une protection puissante, mais elle demeure fragile et se brise facilement.",
+        "effet": "Usage unique.\n Une Amulette d'Opale confère à son proteur une sauvegarde invulnérable de 2+ contre une seule blessure.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Signe d'Asuryan",
+        "type": "Objet Cabalistique",
+        "points": 40,
+        "description": "Ce signe est tatoué sur la main du Mage avec une encre préparée dans les flammes sacrées d'Asuryan. A la première utilisation, le tatouage disparaît comme s'il n'avait jamais été là.",
+        "effet": "Usage unique.\n Un sorcier peut utiliser cet objet au lieu d'effectuer une tentative de dissipation. S'il le fait, le sort est automatiquement dissipé sans qu'il faille un jet de Dissipation.\n Notez qu'on ne peut pas dissiper une invocation parfaite.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Cristal des Annulii",
+        "type": "Objet Cabalistique",
+        "points": 30,
+        "description": "Déterré loin sous les Montagnes des Annulii, ce cristal a été poli par le vortex magique qui s'engouffre au centre d'Ulthuan, si bien qu'il attire à lui l'énergie magique.",
+        "effet": "Une fois par tour, après avoir lancé un sort avec succès, le porteur du Cristal des Annulii a le droit d'oublier le sort en question et d'en générer un autre tout de suite (hormis les sorts emblématiques) de la façon habituelle.\n Notez qu'il est possible que le Sorcier génère le sort qu'il vient d'oublier, ou un sort oublié à un tour précédent. C'est le destin.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Baguette d'Argent",
+        "type": "Objet Cabalistique",
+        "points": 15,
+        "description": "Cette baguette est recouverte de lignes de runes intriquées écrites dans un langage oublié.",
+        "effet": "Le porteur de la Baguette d'Argent connaît 1 sort de plus (choisi de la façon habituelle) que la normale pour son Niveau de Sorcellerie.\n Notez que cela n'augmente pas le Niveau du Sorcier.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Pierre de Nuit",
+        "type": "Objet Enchanté",
+        "points": 75,
+        "description": "Ceux doués de vision magique voient le porteur de cette pierre noire et lisse comme un gouffre insondable, un espace où rien n'existe dans le royaume de la magie.",
+        "effet": "Tant qu'ils sont à portée de Commandement du porteur, tous les Sorciers (amis ou ennemis) subissent un modificateur de -1 à leurs jets de Lancement et de Dissipation. De plus, à la sous-phase de Commandement de son tour, s'il n'est pas engagé en combat, ce personnage peut tenter d'utiliser la Pierre de Nuit en effectuant un test de Commandement (avec son propre Commandement non modifié). en cas de réussite, jusqu'à votre prochaine sous-phase de Début du Tour, ce personnage ne peut être ciblé par aucun sort et est immunisé aux effets de tous les sorts",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Cape de Barbes",
+        "type": "Objet Enchanté",
+        "points": 30,
+        "description": "Une aura de peur et de colère nimbe ce trophée sinistre de la Guerre de la Barbe, imprégnant les alliés comme les ennemis d'un malaise palpable.",
+        "effet": "Le porteur de la Cape de Barbes cause la Terreur. Cependant, cette cape est si perturante que les autres figurines ne peuvent pas utiliser le Commandement du porteur.",
+        "notes": ""
+    },
+    {
+        "faction": "Haut Elfe",
+        "name": "Graine de Renaissance",
+        "type": "Objet Enchanté",
+        "points": 20,
+        "description": "Cette graine du coeur d'Athel Loren, offerte aux Hauts Elfes par leurs lointains cousins, insuffle au porteur une magie vivifiante",
+        "effet": "La Graine de Renaissance confère à son porteur la règle spéciale Régénération (5+).",
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Lame d'Ogre",
+        "type": "Arme",
+        "points": 65,
+        "description": "Une épée large, lourde et sans aucune subtilité, à l'instar de son homonyme.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F+2",
+            "armour_piercing": "-2",
+            "special_rules": [
+                "Arme Perforante (1)",
+                "Attaques Magiques",
+                "Blessures Multiples (1D3)"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Hache de Bourreau",
+        "type": "Arme",
+        "points": 45,
+        "description": "Une hache à la large lame, imprégnée du sang de ses innombrables victimes.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F+1",
+            "armour_piercing": "-1",
+            "special_rules": [
+                "Coup Fatal",
+                "Attaques Magiques",
+                "Arme à Deux Mains"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Epée de Bataille",
+        "type": "Arme",
+        "points": 60,
+        "description": "Une arme simple, mais de facture exquise, bénie par de puissants mages et des prêtres révérés.",
+        "stats": {
+            "range": "Combat",
+            "strength": "Combat F+1",
+            "armour_piercing": "-1",
+            "special_rules": [
+                "Arme Perforante (1)",
+                "Attaques Supplémentaires (+1)",
+                "Attaques Magiques"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Hache Mange-Sorts",
+        "type": "Arme",
+        "points": 35,
+        "description": "Cette hache d'airain gravée de runes est le fléau des Vents de Magie.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques",
+                "Résistance à la Magie (-2)"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Lame d'Escrimeur",
+        "type": "Arme",
+        "points": 55,
+        "description": "Des armes façonnées par les meilleurs forgerons, et ornées de puissantes runes de vivacité.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Supplémentaires (+2)",
+                "Attaques Magiques",
+                "Arme à Deux Mains"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Lame de Géant",
+        "type": "Arme",
+        "points": 30,
+        "description": "La Lame de Géant est une lourde lame dotée d'enchantements puissants qui accroissent le poids des coups.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F+1",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Arme Perforante (2)",
+                "Attaques Magiques",
+                "Blessures Multiples (2)"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Epée Tueuse de Dragons",
+        "type": "Arme",
+        "points": 50,
+        "description": "Une lame puissante, brandie par maints héros partis en quête pour tuer des monstres hideux.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques",
+                "Tueur de Monstres"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Epée de Vivacité",
+        "type": "Arme",
+        "points": 25,
+        "description": "Forgée dans des matériaux magiques, cette épée a été ensorcelée pour frapper comme si elle était douée d'une vie propre.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques",
+                "Frappe en Premier"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Lame Bersek",
+        "type": "Arme",
+        "points": 20,
+        "description": "Imprégnée du sang d'innombrables ennemis vaincus, la Lame Berserk est insatiable.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F+1",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques",
+                "Frénésie"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Épée de Puissance",
+        "type": "Arme",
+        "points": 20,
+        "description": "Cette arme est ornée de runes qui augmentent la force de son porteur.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F+1",
+            "armour_piercing": "-1",
+            "special_rules": [
+                "Attaques Magiques"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Épée de Frappe",
+        "type": "Arme",
+        "points": 15,
+        "description": "Ornée de runes de vitesse et de précision, l'Épée de Frappe est une arme aussi élégante que redoutable.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Magiques"
+            ]
+        },
+        "notes": "A la phase de Combat, le porteur de l'Épée de Frappe a un modificateur +1 à ses jets de Touche."
+    },
+    {
+        "faction": "Commun",
+        "name": "Lame Ardente",
+        "type": "Arme",
+        "points": 5,
+        "description": "Une fois la Lame Ardente dégainée, son fil brûle telle une flamme vivante.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-",
+            "special_rules": [
+                "Attaques Enflammées",
+                "Attaques Magiques"
+            ]
+        },
+        "notes": ""
+    },{
+        "faction": "Commun",
+        "name": "Lame de Morsure",
+        "type": "Arme",
+        "points": 15,
+        "description": "La surface dentelée de la Lame de Morsure découpe cottes de mailles et armures de plates avec une facilité effrayante.",
+        "stats": {
+            "range": "Combat",
+            "strength": "F",
+            "armour_piercing": "-2",
+            "special_rules": [
+                "Arme Perforante (1)",
+                "Attaques Magiques"
+            ]
+        },
+        "notes": ""
+    },
+    {
+        "faction": "Commun",
+        "name": "Bouclier Ensorcelé",
+        "type": "Armure",
+        "points": 5,
+        "description": "Un bouclier simple doté de charmes ou de fétiches pour porter chance au porteur. Dans la fureur des combats, de tels ornements ne restent pas intacts bien longtemps.",
+        "effet": "Le Bouclier ensorcelé est un Bouclier \n\nDe plus, une fois par partie, il confère à son porteur une Sauvegarde Invulnérable de 5+ contre une seule Blessure. Une fois cette Sauvegarde Invulnérable utilisée, le Bouclier Ensorcelé est considéré comme un bouclier ordinaire sans propriété magique.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Armure du Destin",
+        "type": "armure",
+        "points": 70,
+        "description": "L'Armure du Destin protège son porteur de la plupart des coups.",
+        "effet": "De plus, son porteur a une Sauvegarde invulnérable de 4+ contre toute blessure subie.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Bouclier du Héros Véritable",
+        "type": "armure",
+        "points": 30,
+        "description": "Un lourd bouclier de chêne et de fer qui arrête la plupart des tirs.",
+        "effet": "De plus, son porteur a une Sauvegarde Invulnérable de 5+ contre toute blessure subie à la phase de Tir.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Heaume du Trompeur",
+        "type": "armure",
+        "points": 60,
+        "description": "Un heaume scintillant qui plonge l'ennemi dans la confusion, si bien que les coups qui visent le porteur manquent leur cible.",
+        "effet": "Le porteur du Heaume du Trompeur améliore sa valeur d'Armure de 1 (jusqu'à un maximum de 2+). De plus, toute figurine ennemie qui dirige ses Attaques contre le porteur pendant la phase de Combat subit un modificateur de -1 à ses jets de Touche.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Bouclier d'Anti-Magie",
+        "type": "armure",
+        "points": 25,
+        "description": "Les vents de Magie perdent leur pouvoir en présence du Bouclier d'Anti-Magie doublé d'airain.",
+        "effet": "De plus, son porteur a une sauvegarde Invulnérable de 5+ contre toute blessure causée par un Projectile Magique, un Vortex Magique ou un Assaillement.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Armure de Fer Argent",
+        "type": "armure",
+        "points": 40,
+        "description": "L'Armure du Destin protège son porteur de la plupart des coups.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Armure de Fer Météorique",
+        "type": "armure",
+        "points": 20,
+        "description": "Cette armure lourde fut forgée dans un minerai issu d'un météore tombé du firmament.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Armure du Destin",
+        "type": "armure",
+        "points": 35,
+        "description": "Chaque écaille de cette chemise de mailles est forgée dans un fragment de métal précieux.",
+        "effet": "De plus, une fois par Tour, vous pouvez faire relancer à votre adversaire un seul jet de Touche effectué contre le porteur.",
+        "notes": "Armure Magique"
+    },
+    {
+        "faction": "Commun",
+        "name": "Bouclier Enchanté",
+        "type": "armure",
+        "points": 10,
+        "description": "Un bouclier robuste finement ouvragé qui protège sans faille son porteur.",
+        "effet": "De plus, son porteur a une Sauvegarde Invulnérable de 6+ contre toute blessure causée par une Attaque non Magique.",
+        "notes": "Armure Magique"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 ]
